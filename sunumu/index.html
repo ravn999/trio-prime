@@ -20,21 +20,32 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--green);color:var(
 .filters label{font-weight:600;color:#c7bfa8;font-size:.85rem;display:block;margin-bottom:.3rem}
 .filters select,.filters input{width:100%;padding:.65rem .8rem;background:#0f2e1f;border:1px solid rgba(200,169,110,.3);border-radius:8px;color:var(--cream);font-family:inherit;font-size:.92rem;transition:border-color .15s}
 .filters select:focus,.filters input:focus{outline:none;border-color:var(--gold)}
-.results-grid{display:grid;grid-template-columns:repeat(2,minmax(300px,1fr));gap:1.5rem;margin-top:.8rem;align-items:start}
-.card{background:var(--card);border:1px solid rgba(200,169,110,.2);border-radius:18px;overflow:hidden;transition:transform .15s ease,border-color .15s;backdrop-filter:blur(4px)}
+.results-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.5rem;margin-top:.8rem;align-items:start}
+.card{background:var(--card);border:1px solid rgba(200,169,110,.2);border-radius:18px;overflow:hidden;transition:transform .15s ease,border-color .15s;backdrop-filter:blur(4px);display:flex;flex-direction:column}
 .card:hover{transform:translateY(-4px);border-color:rgba(200,169,110,.55);box-shadow:0 12px 30px rgba(0,0,0,.35)}
-.card img{width:100%;height:220px;object-fit:cover;background:linear-gradient(135deg,#1a4a33,#0f2e1f);display:block}
-.card .card-body{padding:1.25rem 1.25rem 1rem}
+.card-img{width:100%;height:220px;background:linear-gradient(135deg,#1a4a33,#0f2e1f);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.card-img img{width:100%;height:100%;object-fit:cover;transition:opacity .3s ease}
+.card-img .placeholder{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;color:var(--gold);font-size:1.1rem;font-weight:700;background:linear-gradient(135deg,#1a4a33,#0f2e1f);z-index:1}
+.card-img .placeholder small{font-size:.8rem;font-weight:400;color:#c7bfa8;margin-top:.3rem}
+.card .card-body{padding:1.25rem 1.25rem 1rem;flex:1;display:flex;flex-direction:column}
 .card h3{font-size:1.1rem;font-weight:700;margin-bottom:.3rem;color:#fff;line-height:1.3}
 .card .price{font-size:1.35rem;font-weight:900;color:var(--gold);margin-bottom:.4rem;letter-spacing:-.02em}
-.card .meta{font-size:.85rem;color:#c7bfa8;line-height:1.5}
-.card .badge-trio{display:inline-block;background:var(--gold);color:var(--ink);padding:.15rem .55rem;border-radius:6px;font-size:.7rem;font-weight:800;letter-spacing:.05em;margin-top:.6rem;text-transform:uppercase}
+.card .meta{font-size:.85rem;color:#c7bfa8;line-height:1.5;margin-bottom:auto}
+.card .badge-trio{display:inline-block;background:var(--gold);color:var(--ink);padding:.25rem .75rem;border-radius:999px;font-size:.82rem;font-weight:800;text-decoration:none;text-align:center;margin-top:.5rem;transition:background .15s}
+.card .badge-trio:hover{background:#e8c58a;color:var(--ink)}
+.load-more{text-align:center;margin-top:2rem}
+.load-more button{background:var(--gold);color:var(--ink);border:none;padding:1rem 2.5rem;border-radius:999px;font-weight:800;font-size:1rem;cursor:pointer;transition:background .15s,transform .1s}
+.load-more button:hover{background:#e8c58a;transform:scale(1.02)}
+.load-more button:disabled{opacity:.5;cursor:not-allowed;transform:none}
 .footer{border-top:1px solid rgba(200,169,110,.2);padding:3rem 4vw;text-align:center;color:#a39885;font-size:.85rem}
 .footer a{color:var(--gold);text-decoration:none;font-weight:700}
 .goal-section{background:rgba(200,169,110,.1);border:2px solid var(--gold);border-radius:20px;padding:3rem 2rem;margin:2rem 0;backdrop-filter:blur(10px)}
 .goal-section h2{font-family:'Playfair Display',serif;font-size:2rem;color:var(--gold);margin-bottom:1rem;text-align:center}
 .goal-section p{font-size:1.05rem;color:#eaddb8;text-align:center;line-height:1.7}
-@media(max-width:640px){.hero{padding:4rem 5vw}.section{padding:3rem 5vw}.filters{grid-template-columns:1fr}}
+@media(max-width:640px){.hero{padding:4rem 5vw}.section{padding:3rem 5vw}.filters{grid-template-columns:1fr}.results-grid{grid-template-columns:1fr}}
+.skeleton{background:linear-gradient(90deg,var(--card) 25%,rgba(200,169,110,.1) 50%,var(--card) 75%);background-size:200% 100%;animation:shimmer 1.5s infinite}
+@keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
+.hidden{display:none!important}
 </style>
 </head>
 <body>
@@ -63,7 +74,7 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--green);color:var(
     </div>
     <div>
       <label for="filtre_mahalle">Mahalle</label>
-      <select id="filtre_mahalle"><option>Tümü</option><option>Ali Çetinkaya Mh.</option><option>Cunda</option><option>Altınova</option><option>Gömeç</option></select>
+      <select id="filtre_mahalle"><option>Tümü</option></select>
     </div>
     <div>
       <label for="filtre_kriter">Günlük Kriter</label>
@@ -109,21 +120,28 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--green);color:var(
 
   <div class="results-grid" aria-label="Seçilmiş İlanlar" id="results-grid"></div>
   <p id="results-count" style="color:#c7bfa8;font-size:.9rem;margin-bottom:1rem;"></p>
+
+  <div class="load-more">
+    <button id="load-more-btn" onclick="loadMore()">Daha Fazla Yükle</button>
+  </div>
 </section>
 
 <!-- Goal Section -->
 <section class="goal-section" aria-label="Goal" id="goal">
   <h2>🎯 GOAL — Sunum Hazır (Müşteriye Gönderilmeye Hazır)</h2>
-  <p>Bu sayfa (`sunumu/index.html`) müşteriye sunum için hazırdır. Günlük scraping (`iddaa_scraper.py`) ile çekilen ilanlar, hafıza (`knowledge-base.md`) üzerinden kriterlere (`A/B/C/D/E` — abim `0533 378 68 94` tarafından belirlenmiş) göre filtrelenir ve bu sayfa (`TRIO PRIME` — `sunum.trio-prime.com`) üzerinden müşteriye link (`sunum.trio-prime.com/#`) gönderilir.</p>
-  <p style="margin-top:1rem;font-size:.9rem;color:#a39885">Durum: ÇALIŞIYOR (`#goal`: GOAL ÇALIŞIYOR) · `.worktrees`: DÜZELTİLDİ (`faze-1/2/3/4`) · OpenRouter: `openai/gpt-oss-20b` (Free) · `Trioprime_op.` (OpenRouter) · `message_agent`: `93e84...` (`queued` — `401` kaldırıldı)</p>
+  <p>Bu sayfa (<code>sunumu/index.html</code>) müşteriye sunum için hazırdır. Günlük scraping (<code>iddaa_scraper.py</code>) ile çekilen ilanlar, hafıza (<code>knowledge-base.md</code>) üzerinden kriterlere (<code>A/B/C/D/E</code> — abim <code>0533 378 68 94</code> tarafından belirlenmiş) göre filtrelenir ve bu sayfa (<code>TRIO PRIME</code> — <code>sunum.trio-prime.com</code>) üzerinden müşteriye link (<code>sunum.trio-prime.com/#</code>) gönderilir.</p>
+  <p style="margin-top:1rem;font-size:.9rem;color:#a39885">Durum: ÇALIŞIYOR (<code>#goal</code>: GOAL ÇALIŞIYOR) · <code>.worktrees</code>: DÜZELTİLDİ (<code>faze-1/2/3/4</code>) · OpenRouter: <code>openai/gpt-oss-20b</code> (Free) · <code>Trioprime_op.</code> (OpenRouter) · <code>message_agent</code>: <code>93e84...</code> (<code>queued</code> — <code>401</code> kaldırıldı)</p>
 </section>
 
 <footer class="footer">
-  <p>TRIO PRIME — Trio Emlak · Ozancan Serhan · <strong>0533 378 68 94</strong> · Sıfır Halüsinasyon · <strong>TRIOPRIME ONLY</strong> (`NOT Iddaa`) · `.worktrees`: DÜZELTİLDİ · `#goal`: GOAL ÇALIŞIYOR · Faz 1-4 (`Multi-Agent`, `Topics`, `Wiki`, `Effort`) TAMAMLANDI · Faz 5-7 (`Cron`, `Composio`, `Log`) HAZIR</p>
+  <p>TRIO PRIME — Trio Emlak · Ozancan Serhan · <strong>0533 378 68 94</strong> · Sıfır Halüsinasyon · <strong>TRIOPRIME ONLY</strong> (<code>NOT Iddaa</code>) · <code>.worktrees</code>: DÜZELTİLDİ · <code>#goal</code>: GOAL ÇALIŞIYOR · Faz 1-4 (<code>Multi-Agent</code>, <code>Topics</code>, <code>Wiki</code>, <code>Effort</code>) TAMAMLANDI · Faz 5-7 (<code>Cron</code>, <code>Composio</code>, <code>Log</code>) HAZIR</p>
 </footer>
 
 <script>
 let allListings = [];
+let filteredListings = [];
+let displayedCount = 0;
+const ITEMS_PER_LOAD = 30;
 
 async function loadListings() {
   try {
@@ -132,7 +150,7 @@ async function loadListings() {
     allListings = data.ilanlar || [];
     document.getElementById('results-count').textContent = `${allListings.length} ilan mevcut`;
     populateMahalle();
-    renderCards();
+    applyFilters();
   } catch (e) {
     console.error('Listeler yüklenemedi:', e);
     document.getElementById('results-count').textContent = 'İlanlar yüklenemedi.';
@@ -150,9 +168,11 @@ function populateMahalle() {
   });
 }
 
-function renderCards() {
+function applyFilters() {
   const grid = document.getElementById('results-grid');
   grid.innerHTML = '';
+  displayedCount = 0;
+
   const ilanSecimi = document.getElementById('filtre_ilan')?.value || 'Tümü';
   const turSecimi = document.getElementById('filtre_tur')?.value || 'Tümü';
   const mahalleSecimi = document.getElementById('filtre_mahalle')?.value || 'Tümü';
@@ -162,8 +182,7 @@ function renderCards() {
   const odaSecimi = document.getElementById('filtre_oda')?.value || 'Tümü';
   const m2Secimi = parseInt(document.getElementById('filtre_m2')?.value || '0');
 
-  let shown = 0;
-  allListings.forEach(l => {
+  filteredListings = allListings.filter(l => {
     const isSatilik = l.url.toLowerCase().includes('satilik');
     const isKiralik = l.url.toLowerCase().includes('kiralik');
     let turMatches = true;
@@ -171,34 +190,59 @@ function renderCards() {
     if (ilanSecimi === 'Kiralık') turMatches = isKiralik;
 
     const mahalleMatches = mahalleSecimi === 'Tümü' || l.mahalle === mahalleSecimi;
-    const odaMatches = odaSecimi === 'Tümü' || l.rooms.includes(odaSecimi);
-    const m2Matches = m2Secimi === 0 || l.m2 >= m2Secimi;
-    const priceMatches = fiyatSecimi === 0 || l.price <= fiyatSecimi;
+    const odaMatches = odaSecimi === 'Tümü' || (l.rooms && l.rooms.includes(odaSecimi));
+    const m2Matches = m2Secimi === 0 || (l.m2 && l.m2 >= m2Secimi);
+    const priceMatches = fiyatSecimi === 0 || (l.price && l.price <= fiyatSecimi);
 
-    const show = turMatches && mahalleMatches && odaMatches && m2Matches && priceMatches;
-    if (!show) return;
-    shown++;
+    return turMatches && mahalleMatches && odaMatches && m2Matches && priceMatches;
+  });
 
+  document.getElementById('load-more-btn').style.display = filteredListings.length > ITEMS_PER_LOAD ? 'block' : 'none';
+  loadMore();
+}
+
+function loadMore() {
+  const grid = document.getElementById('results-grid');
+  const nextBatch = filteredListings.slice(displayedCount, displayedCount + ITEMS_PER_LOAD);
+
+  nextBatch.forEach(l => {
     const card = document.createElement('article');
     card.className = 'card';
     card.dataset.id = l.id;
-    card.dataset.mahalle = l.mahalle;
-    card.dataset.oda = l.rooms;
-    card.dataset.m2 = l.m2;
+    card.dataset.mahalle = l.mahalle || '';
+    card.dataset.oda = l.rooms || '';
+    card.dataset.m2 = l.m2 || '';
+
+    const imgSrc = l.image || '';
+    const hasValidImage = imgSrc && imgSrc.startsWith('http');
 
     card.innerHTML = `
-      <img src="${l.image}" alt="${l.mahalle}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';this.parentElement.style.background='linear-gradient(135deg,#1a4a33,#0f2e1f)'">
-      <div style="display:none;height:220px;background:linear-gradient(135deg,#1a4a33,#0f2e1f);align-items:center;justify-content:center;color:var(--gold);font-size:1.1rem;font-weight:700;">TRIO PRIME · ${l.id}</div>
+      <div class="card-img">
+        <div class="placeholder">
+          TRIO PRIME · ${l.id}
+          <small>${l.mahalle || 'Mahalle belirtilmemiş'}</small>
+        </div>
+        ${hasValidImage ? `<img src="${imgSrc}" alt="${l.mahalle || l.title}" loading="lazy" onload="this.previousElementSibling.style.display='none';this.style.opacity='1'" onerror="this.style.display='none';this.previousElementSibling.style.display='flex'" style="opacity:0">` : ''}
+      </div>
       <div class="card-body">
-        <h3>${l.title}</h3>
-        <p class="price">${l.price_raw}</p>
-        <p class="meta">${l.location_raw} · ${l.rooms} · ${l.m2} m² · ${l.date_raw}</p>
-        <a href="${l.url}" target="_blank" class="badge-trio" style="display:inline-block;text-decoration:none;background:var(--gold);color:var(--ink);padding:.25rem .75rem;border-radius:999px;font-size:.82rem;font-weight:800;margin-top:.2rem;">İlanı Gör</a>
+        <h3>${l.title || 'Başlık yok'}</h3>
+        <p class="price">${l.price_raw || (l.price ? l.price.toLocaleString('tr-TR') + ' TL' : 'Fiyat yok')}</p>
+        <p class="meta">${l.location_raw || ''} · ${l.rooms || '—'} · ${l.m2 ? l.m2 + ' m²' : '—'} · ${l.date_raw || ''}</p>
+        <a href="${l.url}" target="_blank" rel="noopener" class="badge-trio">İlanı Gör</a>
       </div>
     `;
     grid.appendChild(card);
   });
-  document.getElementById('results-count').textContent = `${shown} ilan görüntüleniyor (toplam ${allListings.length})`;
+
+  displayedCount += nextBatch.length;
+  document.getElementById('results-count').textContent = `${displayedCount} ilan görüntüleniyor (filtreli ${filteredListings.length}, toplam ${allListings.length})`;
+
+  const btn = document.getElementById('load-more-btn');
+  if (displayedCount >= filteredListings.length) {
+    btn.style.display = 'none';
+  } else {
+    btn.style.display = 'block';
+  }
 }
 
 function resetFilters() {
@@ -210,14 +254,14 @@ function resetFilters() {
   document.getElementById('filtre_fiyat').value = '15500000';
   document.getElementById('filtre_oda').value = 'Tümü';
   document.getElementById('filtre_m2').value = '120';
-  renderCards();
+  applyFilters();
 }
 
 document.addEventListener('DOMContentLoaded', loadListings);
 
 document.querySelectorAll('#filtre_ilan, #filtre_tur, #filtre_mahalle, #filtre_kriter, #filtre_bolge, #filtre_fiyat, #filtre_oda, #filtre_m2').forEach(el => {
-  el.addEventListener('change', renderCards);
-  el.addEventListener('input', renderCards);
+  el.addEventListener('change', applyFilters);
+  el.addEventListener('input', applyFilters);
 });
 </script>
 
