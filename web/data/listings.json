@@ -1,0 +1,2511 @@
+{
+  "generated_at": "2026-11-08T20:19:51.133631",
+  "enriched_at": "2026-11-08T19:47:19.385181",
+  "total_satilik": 1000,
+  "total_kiralik": 228,
+  "displayed_count": 30,
+  "import_stats": {
+    "total": 30,
+    "with_m2": 5,
+    "with_rooms": 2,
+    "with_description": 0,
+    "with_photos": 30,
+    "categories": {
+      "arsa_tarla": 27,
+      "konut": 3
+    },
+    "avg_opportunity_score": 66.8
+  },
+  "ilanlar": [
+    {
+      "id": "1272766293",
+      "title": "Cundada Kupon Fırsat İmara Sıfır Zeytinlik",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-cundada-kupon-firsat-imara-sifir-zeytinlik-1272766293/detay",
+      "price": 550000,
+      "price_raw": "550.000 TL",
+      "location_raw": "Namık Kemal Mh.",
+      "mahalle": "Namik Kemal",
+      "date_raw": "28 Ekim 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1272766293_00_web.webp",
+      "scraped_at": "2026-10-30 18:45:21",
+      "search_path": "/emlak/balikesir-ayvalik-namik-kemal.",
+      "category": "arsa_tarla",
+      "price_per_m2": null,
+      "opportunity_score": 65,
+      "latitude": 39.3208,
+      "longitude": 26.6936,
+      "distances_km": {
+        "ayvalik_merkez": 0.0,
+        "cunda_sahil": 4.61,
+        "sarimsakli_sahil": 4.74,
+        "altinova_merkez": 10.7,
+        "gomec_merkez": 15.16,
+        "edremit_korfez_havalimani": 36.63,
+        "balikesir_merkez": 108.35
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1272766293_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1272766293_00_web.webp",
+          "filename": "1272766293_00_web.webp",
+          "size_kb": 37,
+          "url": "https://cdn.trio-prime.com/photos/1272766293_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1272766293_00_mobile.webp",
+          "filename": "1272766293_00_mobile.webp",
+          "size_kb": 37,
+          "url": "https://cdn.trio-prime.com/photos/1272766293_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1272766293_00_thumb.webp",
+          "filename": "1272766293_00_thumb.webp",
+          "size_kb": 25,
+          "url": "https://cdn.trio-prime.com/photos/1272766293_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1272766293_00_print.webp",
+          "filename": "1272766293_00_print.webp",
+          "size_kb": 37,
+          "url": "https://cdn.trio-prime.com/photos/1272766293_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1233942594",
+      "title": "ALTIN EMLAKTAN İMAR SINIRINDA SATILIK 260 m2 HİSSELİ ZEYTİNLİK",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-altin-emlaktan-imar-sinirinda-satilik-260-m2-hisseli-zeytinlik-1233942594/detay",
+      "price": 700000,
+      "price_raw": "700.000 TL",
+      "location_raw": "Merkez Sahil Kent Mah.",
+      "mahalle": "",
+      "date_raw": "23 Ekim 2026",
+      "m2": 260.0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1233942594_00_web.webp",
+      "scraped_at": "2026-10-24 11:25:05",
+      "search_path": "/emlak/balikesir-ayvalik.",
+      "category": "arsa_tarla",
+      "price_per_m2": 2692.0,
+      "opportunity_score": 85,
+      "latitude": 39.3208,
+      "longitude": 26.6936,
+      "distances_km": {
+        "ayvalik_merkez": 0.0,
+        "cunda_sahil": 4.61,
+        "sarimsakli_sahil": 4.74,
+        "altinova_merkez": 10.7,
+        "gomec_merkez": 15.16,
+        "edremit_korfez_havalimani": 36.63,
+        "balikesir_merkez": 108.35
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1233942594_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1233942594_00_web.webp",
+          "filename": "1233942594_00_web.webp",
+          "size_kb": 87,
+          "url": "https://cdn.trio-prime.com/photos/1233942594_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1233942594_00_mobile.webp",
+          "filename": "1233942594_00_mobile.webp",
+          "size_kb": 87,
+          "url": "https://cdn.trio-prime.com/photos/1233942594_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1233942594_00_thumb.webp",
+          "filename": "1233942594_00_thumb.webp",
+          "size_kb": 61,
+          "url": "https://cdn.trio-prime.com/photos/1233942594_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1233942594_00_print.webp",
+          "filename": "1233942594_00_print.webp",
+          "size_kb": 87,
+          "url": "https://cdn.trio-prime.com/photos/1233942594_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1255344039",
+      "title": "AYVALIK SARIMSAKLI OKULUN YANI MÜSTAKİL TAPULU SATILIK DEPO",
+      "url": "https://www.sahibinden.com/ilan/emlak-is-yeri-satilik-ayvalik-sarimsakli-okulun-yani-mustakil-tapulu-satilik-depo-1255344039/detay",
+      "price": 880000,
+      "price_raw": "880.000 TL",
+      "location_raw": "Küçükköy Mh.",
+      "mahalle": "Kucukkoy",
+      "date_raw": "23 Ekim 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1255344039_00_web.webp",
+      "scraped_at": "2026-10-24 11:05:10",
+      "search_path": "/emlak/balikesir-ayvalik-kucukkoy.",
+      "category": "konut",
+      "price_per_m2": null,
+      "opportunity_score": 55,
+      "latitude": 39.3411,
+      "longitude": 26.6598,
+      "distances_km": {
+        "ayvalik_merkez": 3.68,
+        "cunda_sahil": 3.94,
+        "sarimsakli_sahil": 3.36,
+        "altinova_merkez": 8.65,
+        "gomec_merkez": 14.38,
+        "edremit_korfez_havalimani": 37.26,
+        "balikesir_merkez": 110.35
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1255344039_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1255344039_00_web.webp",
+          "filename": "1255344039_00_web.webp",
+          "size_kb": 59,
+          "url": "https://cdn.trio-prime.com/photos/1255344039_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1255344039_00_mobile.webp",
+          "filename": "1255344039_00_mobile.webp",
+          "size_kb": 59,
+          "url": "https://cdn.trio-prime.com/photos/1255344039_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1255344039_00_thumb.webp",
+          "filename": "1255344039_00_thumb.webp",
+          "size_kb": 40,
+          "url": "https://cdn.trio-prime.com/photos/1255344039_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1255344039_00_print.webp",
+          "filename": "1255344039_00_print.webp",
+          "size_kb": 59,
+          "url": "https://cdn.trio-prime.com/photos/1255344039_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1226580619",
+      "title": "Yeşilköy Ayvalık ta 12 ay taksit imkanı",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-yesilkoy-ayvalik-ta-12-ay-taksit-imkani-1226580619/detay",
+      "price": 890000,
+      "price_raw": "890.000 TL",
+      "location_raw": "Küçükköy Küçükköy Mh.",
+      "mahalle": "",
+      "date_raw": "24 Ekim 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1226580619_00_web.webp",
+      "scraped_at": "2026-10-24 11:24:44",
+      "search_path": "/emlak/balikesir-ayvalik.",
+      "category": "arsa_tarla",
+      "price_per_m2": null,
+      "opportunity_score": 65,
+      "latitude": 39.3208,
+      "longitude": 26.6936,
+      "distances_km": {
+        "ayvalik_merkez": 0.0,
+        "cunda_sahil": 4.61,
+        "sarimsakli_sahil": 4.74,
+        "altinova_merkez": 10.7,
+        "gomec_merkez": 15.16,
+        "edremit_korfez_havalimani": 36.63,
+        "balikesir_merkez": 108.35
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1226580619_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1226580619_00_web.webp",
+          "filename": "1226580619_00_web.webp",
+          "size_kb": 67,
+          "url": "https://cdn.trio-prime.com/photos/1226580619_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1226580619_00_mobile.webp",
+          "filename": "1226580619_00_mobile.webp",
+          "size_kb": 67,
+          "url": "https://cdn.trio-prime.com/photos/1226580619_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1226580619_00_thumb.webp",
+          "filename": "1226580619_00_thumb.webp",
+          "size_kb": 44,
+          "url": "https://cdn.trio-prime.com/photos/1226580619_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1226580619_00_print.webp",
+          "filename": "1226580619_00_print.webp",
+          "size_kb": 67,
+          "url": "https://cdn.trio-prime.com/photos/1226580619_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1288933681",
+      "title": "Turyap Ayvalık'tan Bağyüzünde Satılık Fıstıklık",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-turyap-ayvalik-tan-bagyuzunde-satilik-fistiklik-1288933681/detay",
+      "price": 950000,
+      "price_raw": "950.000 TL",
+      "location_raw": "Bağyüzü Mh.",
+      "mahalle": "Bagyuzu",
+      "date_raw": "14 Ekim 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1288933681_00_web.webp",
+      "scraped_at": "2026-10-30 18:22:59",
+      "search_path": "/emlak/balikesir-ayvalik-bagyuzu.",
+      "category": "arsa_tarla",
+      "price_per_m2": null,
+      "opportunity_score": 65,
+      "latitude": 39.3312,
+      "longitude": 26.6754,
+      "distances_km": {
+        "ayvalik_merkez": 1.95,
+        "cunda_sahil": 3.81,
+        "sarimsakli_sahil": 3.59,
+        "altinova_merkez": 9.53,
+        "gomec_merkez": 14.68,
+        "edremit_korfez_havalimani": 36.96,
+        "balikesir_merkez": 109.43
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1288933681_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1288933681_00_web.webp",
+          "filename": "1288933681_00_web.webp",
+          "size_kb": 54,
+          "url": "https://cdn.trio-prime.com/photos/1288933681_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1288933681_00_mobile.webp",
+          "filename": "1288933681_00_mobile.webp",
+          "size_kb": 54,
+          "url": "https://cdn.trio-prime.com/photos/1288933681_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1288933681_00_thumb.webp",
+          "filename": "1288933681_00_thumb.webp",
+          "size_kb": 36,
+          "url": "https://cdn.trio-prime.com/photos/1288933681_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1288933681_00_print.webp",
+          "filename": "1288933681_00_print.webp",
+          "size_kb": 54,
+          "url": "https://cdn.trio-prime.com/photos/1288933681_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1321088786",
+      "title": "BALIKESİR AYVALIK CUNDA ADASIN'DA YATIRIMLIK KAÇMAZ ARSA!!",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-balikesir-ayvalik-cunda-adasin-da-yatirimlik-kacmaz-arsa-1321088786/detay",
+      "price": 950000,
+      "price_raw": "950.000 TL",
+      "location_raw": "Namık Kemal Mh.",
+      "mahalle": "Namik Kemal",
+      "date_raw": "22 Ekim 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1321088786_00_web.webp",
+      "scraped_at": "2026-10-30 18:46:43",
+      "search_path": "/emlak/balikesir-ayvalik-namik-kemal.",
+      "category": "arsa_tarla",
+      "price_per_m2": null,
+      "opportunity_score": 65,
+      "latitude": 39.3208,
+      "longitude": 26.6936,
+      "distances_km": {
+        "ayvalik_merkez": 0.0,
+        "cunda_sahil": 4.61,
+        "sarimsakli_sahil": 4.74,
+        "altinova_merkez": 10.7,
+        "gomec_merkez": 15.16,
+        "edremit_korfez_havalimani": 36.63,
+        "balikesir_merkez": 108.35
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1321088786_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1321088786_00_web.webp",
+          "filename": "1321088786_00_web.webp",
+          "size_kb": 44,
+          "url": "https://cdn.trio-prime.com/photos/1321088786_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1321088786_00_mobile.webp",
+          "filename": "1321088786_00_mobile.webp",
+          "size_kb": 44,
+          "url": "https://cdn.trio-prime.com/photos/1321088786_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1321088786_00_thumb.webp",
+          "filename": "1321088786_00_thumb.webp",
+          "size_kb": 29,
+          "url": "https://cdn.trio-prime.com/photos/1321088786_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1321088786_00_print.webp",
+          "filename": "1321088786_00_print.webp",
+          "size_kb": 44,
+          "url": "https://cdn.trio-prime.com/photos/1321088786_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1320205719",
+      "title": "Ayvalık'ta küçük zeytinlik",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-ayvalik-ta-kucuk-zeytinlik-1320205719/detay",
+      "price": 1000000,
+      "price_raw": "1.000.000 TL",
+      "location_raw": "Murateli Mh.",
+      "mahalle": "Murateli",
+      "date_raw": "18 Ekim 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1320205719_00_web.webp",
+      "scraped_at": "2026-10-30 18:44:00",
+      "search_path": "/emlak/balikesir-ayvalik-murateli.",
+      "category": "arsa_tarla",
+      "price_per_m2": null,
+      "opportunity_score": 60,
+      "latitude": 39.3056,
+      "longitude": 26.7123,
+      "distances_km": {
+        "ayvalik_merkez": 2.33,
+        "cunda_sahil": 6.01,
+        "sarimsakli_sahil": 6.41,
+        "altinova_merkez": 12.6,
+        "gomec_merkez": 16.38,
+        "edremit_korfez_havalimani": 36.77,
+        "balikesir_merkez": 107.43
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1320205719_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1320205719_00_web.webp",
+          "filename": "1320205719_00_web.webp",
+          "size_kb": 24,
+          "url": "https://cdn.trio-prime.com/photos/1320205719_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1320205719_00_mobile.webp",
+          "filename": "1320205719_00_mobile.webp",
+          "size_kb": 24,
+          "url": "https://cdn.trio-prime.com/photos/1320205719_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1320205719_00_thumb.webp",
+          "filename": "1320205719_00_thumb.webp",
+          "size_kb": 17,
+          "url": "https://cdn.trio-prime.com/photos/1320205719_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1320205719_00_print.webp",
+          "filename": "1320205719_00_print.webp",
+          "size_kb": 24,
+          "url": "https://cdn.trio-prime.com/photos/1320205719_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1172974847",
+      "title": "ALTIN EMLAKTAN AYVALIK BAĞYÜZÜNDE SATILIK 2960 M2 BAĞ",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-altin-emlaktan-ayvalik-bagyuzunde-satilik-2960-m2-bag-1172974847/detay",
+      "price": 1000000,
+      "price_raw": "1.000.000 TL",
+      "location_raw": "Bağyüzü Mh.",
+      "mahalle": "Bagyuzu",
+      "date_raw": "01 Ekim 2026",
+      "m2": 2960.0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1172974847_00_web.webp",
+      "scraped_at": "2026-10-30 18:23:43",
+      "search_path": "/emlak/balikesir-ayvalik-bagyuzu.",
+      "category": "arsa_tarla",
+      "price_per_m2": 338.0,
+      "opportunity_score": 85,
+      "latitude": 39.3312,
+      "longitude": 26.6754,
+      "distances_km": {
+        "ayvalik_merkez": 1.95,
+        "cunda_sahil": 3.81,
+        "sarimsakli_sahil": 3.59,
+        "altinova_merkez": 9.53,
+        "gomec_merkez": 14.68,
+        "edremit_korfez_havalimani": 36.96,
+        "balikesir_merkez": 109.43
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1172974847_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1172974847_00_web.webp",
+          "filename": "1172974847_00_web.webp",
+          "size_kb": 82,
+          "url": "https://cdn.trio-prime.com/photos/1172974847_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1172974847_00_mobile.webp",
+          "filename": "1172974847_00_mobile.webp",
+          "size_kb": 82,
+          "url": "https://cdn.trio-prime.com/photos/1172974847_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1172974847_00_thumb.webp",
+          "filename": "1172974847_00_thumb.webp",
+          "size_kb": 54,
+          "url": "https://cdn.trio-prime.com/photos/1172974847_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1172974847_00_print.webp",
+          "filename": "1172974847_00_print.webp",
+          "size_kb": 82,
+          "url": "https://cdn.trio-prime.com/photos/1172974847_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1341233670",
+      "title": "AYVALIK ÇAMOBADA KAT İRTİFAKI KURULU 175m2 VİLLA ARSASI",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-ayvalik-camobada-kat-irtifaki-kurulu-175m2-villa-arsasi-1341233670/detay",
+      "price": 1000000,
+      "price_raw": "1.000.000 TL",
+      "location_raw": "Çamoba Mh.",
+      "mahalle": "Camoba",
+      "date_raw": "21 Ekim 2026",
+      "m2": 175.0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1341233670_00_web.webp",
+      "scraped_at": "2026-10-30 18:26:05",
+      "search_path": "/emlak/balikesir-ayvalik-camoba.",
+      "category": "arsa_tarla",
+      "price_per_m2": 5714.0,
+      "opportunity_score": 85,
+      "latitude": 39.3278,
+      "longitude": 26.6801,
+      "distances_km": {
+        "ayvalik_merkez": 1.4,
+        "cunda_sahil": 3.89,
+        "sarimsakli_sahil": 3.79,
+        "altinova_merkez": 9.89,
+        "gomec_merkez": 14.86,
+        "edremit_korfez_havalimani": 36.92,
+        "balikesir_merkez": 109.18
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1341233670_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1341233670_00_web.webp",
+          "filename": "1341233670_00_web.webp",
+          "size_kb": 33,
+          "url": "https://cdn.trio-prime.com/photos/1341233670_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1341233670_00_mobile.webp",
+          "filename": "1341233670_00_mobile.webp",
+          "size_kb": 33,
+          "url": "https://cdn.trio-prime.com/photos/1341233670_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1341233670_00_thumb.webp",
+          "filename": "1341233670_00_thumb.webp",
+          "size_kb": 23,
+          "url": "https://cdn.trio-prime.com/photos/1341233670_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1341233670_00_print.webp",
+          "filename": "1341233670_00_print.webp",
+          "size_kb": 33,
+          "url": "https://cdn.trio-prime.com/photos/1341233670_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1318189456",
+      "title": "AYVALIK HACIVELİLER KÖYÜNDE SATILIK ARSA",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-ayvalik-haciveliler-koyunde-satilik-arsa-1318189456/detay",
+      "price": 1000000,
+      "price_raw": "1.000.000 TL",
+      "location_raw": "Hacıveliler Mh.",
+      "mahalle": "Haciveliler",
+      "date_raw": "20 Ekim 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1318189456_00_web.webp",
+      "scraped_at": "2026-10-30 18:33:25",
+      "search_path": "/emlak/balikesir-ayvalik-haciveliler.",
+      "category": "arsa_tarla",
+      "price_per_m2": null,
+      "opportunity_score": 65,
+      "latitude": 39.3245,
+      "longitude": 26.6889,
+      "distances_km": {
+        "ayvalik_merkez": 0.58,
+        "cunda_sahil": 4.38,
+        "sarimsakli_sahil": 4.41,
+        "altinova_merkez": 10.26,
+        "gomec_merkez": 14.91,
+        "edremit_korfez_havalimani": 36.63,
+        "balikesir_merkez": 108.59
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1318189456_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1318189456_00_web.webp",
+          "filename": "1318189456_00_web.webp",
+          "size_kb": 49,
+          "url": "https://cdn.trio-prime.com/photos/1318189456_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1318189456_00_mobile.webp",
+          "filename": "1318189456_00_mobile.webp",
+          "size_kb": 49,
+          "url": "https://cdn.trio-prime.com/photos/1318189456_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1318189456_00_thumb.webp",
+          "filename": "1318189456_00_thumb.webp",
+          "size_kb": 36,
+          "url": "https://cdn.trio-prime.com/photos/1318189456_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1318189456_00_print.webp",
+          "filename": "1318189456_00_print.webp",
+          "size_kb": 49,
+          "url": "https://cdn.trio-prime.com/photos/1318189456_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1273678481",
+      "title": "Cunda Adası'nda Yatırıma Uygun Zeytinlik",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-cunda-adasi-nda-yatirima-uygun-zeytinlik-1273678481/detay",
+      "price": 1000000,
+      "price_raw": "1.000.000 TL",
+      "location_raw": "Namık Kemal Mh.",
+      "mahalle": "Namik Kemal",
+      "date_raw": "28 Ekim 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1273678481_00_web.webp",
+      "scraped_at": "2026-10-30 18:45:17",
+      "search_path": "/emlak/balikesir-ayvalik-namik-kemal.",
+      "category": "arsa_tarla",
+      "price_per_m2": null,
+      "opportunity_score": 65,
+      "latitude": 39.3208,
+      "longitude": 26.6936,
+      "distances_km": {
+        "ayvalik_merkez": 0.0,
+        "cunda_sahil": 4.61,
+        "sarimsakli_sahil": 4.74,
+        "altinova_merkez": 10.7,
+        "gomec_merkez": 15.16,
+        "edremit_korfez_havalimani": 36.63,
+        "balikesir_merkez": 108.35
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1273678481_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1273678481_00_web.webp",
+          "filename": "1273678481_00_web.webp",
+          "size_kb": 26,
+          "url": "https://cdn.trio-prime.com/photos/1273678481_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1273678481_00_mobile.webp",
+          "filename": "1273678481_00_mobile.webp",
+          "size_kb": 26,
+          "url": "https://cdn.trio-prime.com/photos/1273678481_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1273678481_00_thumb.webp",
+          "filename": "1273678481_00_thumb.webp",
+          "size_kb": 17,
+          "url": "https://cdn.trio-prime.com/photos/1273678481_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1273678481_00_print.webp",
+          "filename": "1273678481_00_print.webp",
+          "size_kb": 26,
+          "url": "https://cdn.trio-prime.com/photos/1273678481_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1340508099",
+      "title": "EMLAKDOLU'DAN AYVALIK HACIVELİLER'DE SATILIK VİLLA İMARLI ARSA",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-emlakdolu-dan-ayvalik-haciveliler-de-satilik-villa-imarli-arsa-1340508099/detay",
+      "price": 1060000,
+      "price_raw": "1.060.000 TL",
+      "location_raw": "Hacıveliler Mh.",
+      "mahalle": "Haciveliler",
+      "date_raw": "26 Ekim 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1340508099_00_web.webp",
+      "scraped_at": "2026-10-30 18:33:04",
+      "search_path": "/emlak/balikesir-ayvalik-haciveliler.",
+      "category": "arsa_tarla",
+      "price_per_m2": null,
+      "opportunity_score": 65,
+      "latitude": 39.3245,
+      "longitude": 26.6889,
+      "distances_km": {
+        "ayvalik_merkez": 0.58,
+        "cunda_sahil": 4.38,
+        "sarimsakli_sahil": 4.41,
+        "altinova_merkez": 10.26,
+        "gomec_merkez": 14.91,
+        "edremit_korfez_havalimani": 36.63,
+        "balikesir_merkez": 108.59
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1340508099_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1340508099_00_web.webp",
+          "filename": "1340508099_00_web.webp",
+          "size_kb": 72,
+          "url": "https://cdn.trio-prime.com/photos/1340508099_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1340508099_00_mobile.webp",
+          "filename": "1340508099_00_mobile.webp",
+          "size_kb": 72,
+          "url": "https://cdn.trio-prime.com/photos/1340508099_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1340508099_00_thumb.webp",
+          "filename": "1340508099_00_thumb.webp",
+          "size_kb": 49,
+          "url": "https://cdn.trio-prime.com/photos/1340508099_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1340508099_00_print.webp",
+          "filename": "1340508099_00_print.webp",
+          "size_kb": 72,
+          "url": "https://cdn.trio-prime.com/photos/1340508099_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1324403045",
+      "title": "AYVALIK BULUTÇEŞMEDE ANA YOLA YAKIN 1.467 m² YATIRIMLIK ARSA",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-ayvalik-bulutcesmede-ana-yola-yakin-1.467-m2-yatirimlik-arsa-1324403045/detay",
+      "price": 1075000,
+      "price_raw": "1.075.000 TL",
+      "location_raw": "Bulutçeşme Mh.",
+      "mahalle": "Bulutcesme",
+      "date_raw": "28 Ekim 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1324403045_00_web.webp",
+      "scraped_at": "2026-10-30 18:25:15",
+      "search_path": "/emlak/balikesir-ayvalik-bulutcesme.",
+      "category": "arsa_tarla",
+      "price_per_m2": null,
+      "opportunity_score": 65,
+      "latitude": 39.3156,
+      "longitude": 26.6987,
+      "distances_km": {
+        "ayvalik_merkez": 0.73,
+        "cunda_sahil": 4.9,
+        "sarimsakli_sahil": 5.14,
+        "altinova_merkez": 11.32,
+        "gomec_merkez": 15.58,
+        "edremit_korfez_havalimani": 36.74,
+        "balikesir_merkez": 108.13
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1324403045_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1324403045_00_web.webp",
+          "filename": "1324403045_00_web.webp",
+          "size_kb": 14,
+          "url": "https://cdn.trio-prime.com/photos/1324403045_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1324403045_00_mobile.webp",
+          "filename": "1324403045_00_mobile.webp",
+          "size_kb": 14,
+          "url": "https://cdn.trio-prime.com/photos/1324403045_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1324403045_00_thumb.webp",
+          "filename": "1324403045_00_thumb.webp",
+          "size_kb": 10,
+          "url": "https://cdn.trio-prime.com/photos/1324403045_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1324403045_00_print.webp",
+          "filename": "1324403045_00_print.webp",
+          "size_kb": 14,
+          "url": "https://cdn.trio-prime.com/photos/1324403045_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1218449669",
+      "title": "İSTANBUL EMLAKTAN ALTINOVA BULUTÇEŞME KÖYÜNDE BAKIMLI ZEYTİNLİK",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-istanbul-emlaktan-altinova-bulutcesme-koyunde-bakimli-zeytinlik-1218449669/detay",
+      "price": 1100000,
+      "price_raw": "1.100.000 TL",
+      "location_raw": "Bulutçeşme Mh.",
+      "mahalle": "Bulutcesme",
+      "date_raw": "12 Ekim 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1218449669_00_web.webp",
+      "scraped_at": "2026-10-30 18:25:24",
+      "search_path": "/emlak/balikesir-ayvalik-bulutcesme.",
+      "category": "arsa_tarla",
+      "price_per_m2": null,
+      "opportunity_score": 65,
+      "latitude": 39.3156,
+      "longitude": 26.6987,
+      "distances_km": {
+        "ayvalik_merkez": 0.73,
+        "cunda_sahil": 4.9,
+        "sarimsakli_sahil": 5.14,
+        "altinova_merkez": 11.32,
+        "gomec_merkez": 15.58,
+        "edremit_korfez_havalimani": 36.74,
+        "balikesir_merkez": 108.13
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1218449669_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1218449669_00_web.webp",
+          "filename": "1218449669_00_web.webp",
+          "size_kb": 64,
+          "url": "https://cdn.trio-prime.com/photos/1218449669_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1218449669_00_mobile.webp",
+          "filename": "1218449669_00_mobile.webp",
+          "size_kb": 64,
+          "url": "https://cdn.trio-prime.com/photos/1218449669_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1218449669_00_thumb.webp",
+          "filename": "1218449669_00_thumb.webp",
+          "size_kb": 44,
+          "url": "https://cdn.trio-prime.com/photos/1218449669_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1218449669_00_print.webp",
+          "filename": "1218449669_00_print.webp",
+          "size_kb": 64,
+          "url": "https://cdn.trio-prime.com/photos/1218449669_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1308275748",
+      "title": "İSTANBUL EMLAKTAN ALTINOVA BULUTÇEŞME KÖYÜNDE BAKIMLI ZEYTİNLİK",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-istanbul-emlaktan-altinova-bulutcesme-koyunde-bakimli-zeytinlik-1308275748/detay",
+      "price": 1100000,
+      "price_raw": "1.100.000 TL",
+      "location_raw": "Bulutçeşme Mh.",
+      "mahalle": "Bulutcesme",
+      "date_raw": "30 Eylül 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1308275748_00_web.webp",
+      "scraped_at": "2026-10-24 10:56:28",
+      "search_path": "/emlak/balikesir-ayvalik-bulutcesme.",
+      "category": "arsa_tarla",
+      "price_per_m2": null,
+      "opportunity_score": 65,
+      "latitude": 39.3156,
+      "longitude": 26.6987,
+      "distances_km": {
+        "ayvalik_merkez": 0.73,
+        "cunda_sahil": 4.9,
+        "sarimsakli_sahil": 5.14,
+        "altinova_merkez": 11.32,
+        "gomec_merkez": 15.58,
+        "edremit_korfez_havalimani": 36.74,
+        "balikesir_merkez": 108.13
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1308275748_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1308275748_00_web.webp",
+          "filename": "1308275748_00_web.webp",
+          "size_kb": 68,
+          "url": "https://cdn.trio-prime.com/photos/1308275748_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1308275748_00_mobile.webp",
+          "filename": "1308275748_00_mobile.webp",
+          "size_kb": 68,
+          "url": "https://cdn.trio-prime.com/photos/1308275748_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1308275748_00_thumb.webp",
+          "filename": "1308275748_00_thumb.webp",
+          "size_kb": 48,
+          "url": "https://cdn.trio-prime.com/photos/1308275748_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1308275748_00_print.webp",
+          "filename": "1308275748_00_print.webp",
+          "size_kb": 68,
+          "url": "https://cdn.trio-prime.com/photos/1308275748_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1336315648",
+      "title": "Ayvalık Tıfıllar Tarla Tapulu Zeytinlik Satılık",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-ayvalik-tifillar-tarla-tapulu-zeytinlik-satilik-1336315648/detay",
+      "price": 1100000,
+      "price_raw": "1.100.000 TL",
+      "location_raw": "Tıfıllar Mh.",
+      "mahalle": "Tifillar",
+      "date_raw": "26 Ekim 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1336315648_00_web.webp",
+      "scraped_at": "2026-10-30 18:52:43",
+      "search_path": "/emlak/balikesir-ayvalik-tifillar.",
+      "category": "arsa_tarla",
+      "price_per_m2": null,
+      "opportunity_score": 65,
+      "latitude": 39.3123,
+      "longitude": 26.6856,
+      "distances_km": {
+        "ayvalik_merkez": 1.17,
+        "cunda_sahil": 3.73,
+        "sarimsakli_sahil": 4.03,
+        "altinova_merkez": 11.61,
+        "gomec_merkez": 16.28,
+        "edremit_korfez_havalimani": 37.79,
+        "balikesir_merkez": 109.32
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1336315648_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1336315648_00_web.webp",
+          "filename": "1336315648_00_web.webp",
+          "size_kb": 78,
+          "url": "https://cdn.trio-prime.com/photos/1336315648_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1336315648_00_mobile.webp",
+          "filename": "1336315648_00_mobile.webp",
+          "size_kb": 78,
+          "url": "https://cdn.trio-prime.com/photos/1336315648_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1336315648_00_thumb.webp",
+          "filename": "1336315648_00_thumb.webp",
+          "size_kb": 51,
+          "url": "https://cdn.trio-prime.com/photos/1336315648_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1336315648_00_print.webp",
+          "filename": "1336315648_00_print.webp",
+          "size_kb": 78,
+          "url": "https://cdn.trio-prime.com/photos/1336315648_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1328677486",
+      "title": "Balıkesir Ayvalıkta Villa İmarlı Projeli Satılık Arsa Takas Olur",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-balikesir-ayvalikta-villa-imarli-projeli-satilik-arsa-takas-olur-1328677486/detay",
+      "price": 1150000,
+      "price_raw": "1.150.000 TL",
+      "location_raw": "Hacıveliler Mh.",
+      "mahalle": "Haciveliler",
+      "date_raw": "07 Ekim 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1328677486_00_web.webp",
+      "scraped_at": "2026-10-19 13:16:29",
+      "search_path": "/emlak/balikesir-ayvalik-haciveliler.",
+      "category": "arsa_tarla",
+      "price_per_m2": null,
+      "opportunity_score": 65,
+      "latitude": 39.3245,
+      "longitude": 26.6889,
+      "distances_km": {
+        "ayvalik_merkez": 0.58,
+        "cunda_sahil": 4.38,
+        "sarimsakli_sahil": 4.41,
+        "altinova_merkez": 10.26,
+        "gomec_merkez": 14.91,
+        "edremit_korfez_havalimani": 36.63,
+        "balikesir_merkez": 108.59
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1328677486_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1328677486_00_web.webp",
+          "filename": "1328677486_00_web.webp",
+          "size_kb": 60,
+          "url": "https://cdn.trio-prime.com/photos/1328677486_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1328677486_00_mobile.webp",
+          "filename": "1328677486_00_mobile.webp",
+          "size_kb": 60,
+          "url": "https://cdn.trio-prime.com/photos/1328677486_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1328677486_00_thumb.webp",
+          "filename": "1328677486_00_thumb.webp",
+          "size_kb": 41,
+          "url": "https://cdn.trio-prime.com/photos/1328677486_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1328677486_00_print.webp",
+          "filename": "1328677486_00_print.webp",
+          "size_kb": 60,
+          "url": "https://cdn.trio-prime.com/photos/1328677486_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1312878319",
+      "title": "SAS'DAN BALIKESİR AYVALIK, FETHİYE'DE SATILIK ZEYTİNLİK",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-sas-dan-balikesir-ayvalik-fethiye-de-satilik-zeytinlik-1312878319/detay",
+      "price": 1235000,
+      "price_raw": "1.235.000 TL",
+      "location_raw": "Fethiye Mah.",
+      "mahalle": "Fethiye",
+      "date_raw": "02 Ekim 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1312878319_00_web.webp",
+      "scraped_at": "2026-10-30 18:29:37",
+      "search_path": "/emlak/balikesir-ayvalik-fethiye.",
+      "category": "arsa_tarla",
+      "price_per_m2": null,
+      "opportunity_score": 65,
+      "latitude": 39.3198,
+      "longitude": 26.6902,
+      "distances_km": {
+        "ayvalik_merkez": 0.31,
+        "cunda_sahil": 4.3,
+        "sarimsakli_sahil": 4.44,
+        "altinova_merkez": 10.79,
+        "gomec_merkez": 15.36,
+        "edremit_korfez_havalimani": 36.92,
+        "balikesir_merkez": 108.66
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1312878319_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1312878319_00_web.webp",
+          "filename": "1312878319_00_web.webp",
+          "size_kb": 65,
+          "url": "https://cdn.trio-prime.com/photos/1312878319_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1312878319_00_mobile.webp",
+          "filename": "1312878319_00_mobile.webp",
+          "size_kb": 65,
+          "url": "https://cdn.trio-prime.com/photos/1312878319_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1312878319_00_thumb.webp",
+          "filename": "1312878319_00_thumb.webp",
+          "size_kb": 43,
+          "url": "https://cdn.trio-prime.com/photos/1312878319_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1312878319_00_print.webp",
+          "filename": "1312878319_00_print.webp",
+          "size_kb": 65,
+          "url": "https://cdn.trio-prime.com/photos/1312878319_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1330119356",
+      "title": "AYVALIK HACIVELİLER'DE YATIRIMLIK VİLLA İMARLI ARSA",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-ayvalik-haciveliler-de-yatirimlik-villa-imarli-arsa-1330119356/detay",
+      "price": 1250000,
+      "price_raw": "1.250.000 TL",
+      "location_raw": "Hacıveliler Mh.",
+      "mahalle": "Haciveliler",
+      "date_raw": "22 Ekim 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1330119356_00_web.webp",
+      "scraped_at": "2026-10-30 18:33:18",
+      "search_path": "/emlak/balikesir-ayvalik-haciveliler.",
+      "category": "arsa_tarla",
+      "price_per_m2": null,
+      "opportunity_score": 65,
+      "latitude": 39.3245,
+      "longitude": 26.6889,
+      "distances_km": {
+        "ayvalik_merkez": 0.58,
+        "cunda_sahil": 4.38,
+        "sarimsakli_sahil": 4.41,
+        "altinova_merkez": 10.26,
+        "gomec_merkez": 14.91,
+        "edremit_korfez_havalimani": 36.63,
+        "balikesir_merkez": 108.59
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1330119356_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1330119356_00_web.webp",
+          "filename": "1330119356_00_web.webp",
+          "size_kb": 49,
+          "url": "https://cdn.trio-prime.com/photos/1330119356_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1330119356_00_mobile.webp",
+          "filename": "1330119356_00_mobile.webp",
+          "size_kb": 49,
+          "url": "https://cdn.trio-prime.com/photos/1330119356_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1330119356_00_thumb.webp",
+          "filename": "1330119356_00_thumb.webp",
+          "size_kb": 36,
+          "url": "https://cdn.trio-prime.com/photos/1330119356_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1330119356_00_print.webp",
+          "filename": "1330119356_00_print.webp",
+          "size_kb": 49,
+          "url": "https://cdn.trio-prime.com/photos/1330119356_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1348470157",
+      "title": "BALIKESİR AYVALIK ALTINOVA'DA YATIRIMLIK FIRSAT ARSA !",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-balikesir-ayvalik-altinova-da-yatirimlik-firsat-arsa-1348470157/detay",
+      "price": 1250000,
+      "price_raw": "1.250.000 TL",
+      "location_raw": "Altınova Mh.",
+      "mahalle": "Altinova",
+      "date_raw": "29 Ekim 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1348470157_00_web.webp",
+      "scraped_at": "2026-10-30 18:59:33",
+      "search_path": "/emlak/balikesir-altinova.",
+      "category": "arsa_tarla",
+      "price_per_m2": null,
+      "opportunity_score": 55,
+      "latitude": 39.4167,
+      "longitude": 26.6833,
+      "distances_km": {
+        "ayvalik_merkez": 10.7,
+        "cunda_sahil": 12.55,
+        "sarimsakli_sahil": 11.87,
+        "altinova_merkez": 0.0,
+        "gomec_merkez": 6.82,
+        "edremit_korfez_havalimani": 30.78,
+        "balikesir_merkez": 106.03
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1348470157_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1348470157_00_web.webp",
+          "filename": "1348470157_00_web.webp",
+          "size_kb": 23,
+          "url": "https://cdn.trio-prime.com/photos/1348470157_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1348470157_00_mobile.webp",
+          "filename": "1348470157_00_mobile.webp",
+          "size_kb": 23,
+          "url": "https://cdn.trio-prime.com/photos/1348470157_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1348470157_00_thumb.webp",
+          "filename": "1348470157_00_thumb.webp",
+          "size_kb": 16,
+          "url": "https://cdn.trio-prime.com/photos/1348470157_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1348470157_00_print.webp",
+          "filename": "1348470157_00_print.webp",
+          "size_kb": 23,
+          "url": "https://cdn.trio-prime.com/photos/1348470157_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1314457854",
+      "title": "AYVALIK KONAK EMLAK'TAN GAZİ KEMAL PAŞA SATILIK 660 M2 ZEYTİNLİK",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-ayvalik-konak-emlak-tan-gazi-kemal-pasa-satilik-660-m2-zeytinlik-1314457854/detay",
+      "price": 1290000,
+      "price_raw": "1.290.000 TL",
+      "location_raw": "Küçükköy Mh.",
+      "mahalle": "Kucukkoy",
+      "date_raw": "28 Ekim 2026",
+      "m2": 660.0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1314457854_00_web.webp",
+      "scraped_at": "2026-10-30 18:40:39",
+      "search_path": "/emlak/balikesir-ayvalik-kucukkoy.",
+      "category": "arsa_tarla",
+      "price_per_m2": 1955.0,
+      "opportunity_score": 80,
+      "latitude": 39.3411,
+      "longitude": 26.6598,
+      "distances_km": {
+        "ayvalik_merkez": 3.68,
+        "cunda_sahil": 3.94,
+        "sarimsakli_sahil": 3.36,
+        "altinova_merkez": 8.65,
+        "gomec_merkez": 14.38,
+        "edremit_korfez_havalimani": 37.26,
+        "balikesir_merkez": 110.35
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1314457854_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1314457854_00_web.webp",
+          "filename": "1314457854_00_web.webp",
+          "size_kb": 37,
+          "url": "https://cdn.trio-prime.com/photos/1314457854_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1314457854_00_mobile.webp",
+          "filename": "1314457854_00_mobile.webp",
+          "size_kb": 37,
+          "url": "https://cdn.trio-prime.com/photos/1314457854_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1314457854_00_thumb.webp",
+          "filename": "1314457854_00_thumb.webp",
+          "size_kb": 25,
+          "url": "https://cdn.trio-prime.com/photos/1314457854_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1314457854_00_print.webp",
+          "filename": "1314457854_00_print.webp",
+          "size_kb": 37,
+          "url": "https://cdn.trio-prime.com/photos/1314457854_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1336474516",
+      "title": "AYVALIK CUNDA'DA SATILIK YATIRIMLIK TARLA",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-ayvalik-cunda-da-satilik-yatirimlik-tarla-1336474516/detay",
+      "price": 1290000,
+      "price_raw": "1.290.000 TL",
+      "location_raw": "Namık Kemal Mh.",
+      "mahalle": "Namik Kemal",
+      "date_raw": "25 Ekim 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1336474516_00_web.webp",
+      "scraped_at": "2026-10-30 18:45:44",
+      "search_path": "/emlak/balikesir-ayvalik-namik-kemal.",
+      "category": "arsa_tarla",
+      "price_per_m2": null,
+      "opportunity_score": 65,
+      "latitude": 39.3208,
+      "longitude": 26.6936,
+      "distances_km": {
+        "ayvalik_merkez": 0.0,
+        "cunda_sahil": 4.61,
+        "sarimsakli_sahil": 4.74,
+        "altinova_merkez": 10.7,
+        "gomec_merkez": 15.16,
+        "edremit_korfez_havalimani": 36.63,
+        "balikesir_merkez": 108.35
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1336474516_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1336474516_00_web.webp",
+          "filename": "1336474516_00_web.webp",
+          "size_kb": 23,
+          "url": "https://cdn.trio-prime.com/photos/1336474516_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1336474516_00_mobile.webp",
+          "filename": "1336474516_00_mobile.webp",
+          "size_kb": 23,
+          "url": "https://cdn.trio-prime.com/photos/1336474516_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1336474516_00_thumb.webp",
+          "filename": "1336474516_00_thumb.webp",
+          "size_kb": 17,
+          "url": "https://cdn.trio-prime.com/photos/1336474516_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1336474516_00_print.webp",
+          "filename": "1336474516_00_print.webp",
+          "size_kb": 23,
+          "url": "https://cdn.trio-prime.com/photos/1336474516_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1324647112",
+      "title": "AYVALIK ÇAKMAKTA ASFALT CEPHELİ 312 m² SATILIK BAHÇE",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-ayvalik-cakmakta-asfalt-cepheli-312-m2-satilik-bahce-1324647112/detay",
+      "price": 1295000,
+      "price_raw": "1.295.000 TL",
+      "location_raw": "Çakmak Mh.",
+      "mahalle": "Cakmak",
+      "date_raw": "23 Eylül 2026",
+      "m2": 312.0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1324647112_00_web.webp",
+      "scraped_at": "2026-10-19 13:13:54",
+      "search_path": "/emlak/balikesir-ayvalik-cakmak.",
+      "category": "arsa_tarla",
+      "price_per_m2": 4151.0,
+      "opportunity_score": 85,
+      "latitude": 39.3256,
+      "longitude": 26.6834,
+      "distances_km": {
+        "ayvalik_merkez": 1.03,
+        "cunda_sahil": 4.01,
+        "sarimsakli_sahil": 3.99,
+        "altinova_merkez": 10.13,
+        "gomec_merkez": 14.97,
+        "edremit_korfez_havalimani": 36.89,
+        "balikesir_merkez": 108.99
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1324647112_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1324647112_00_web.webp",
+          "filename": "1324647112_00_web.webp",
+          "size_kb": 19,
+          "url": "https://cdn.trio-prime.com/photos/1324647112_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1324647112_00_mobile.webp",
+          "filename": "1324647112_00_mobile.webp",
+          "size_kb": 19,
+          "url": "https://cdn.trio-prime.com/photos/1324647112_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1324647112_00_thumb.webp",
+          "filename": "1324647112_00_thumb.webp",
+          "size_kb": 13,
+          "url": "https://cdn.trio-prime.com/photos/1324647112_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1324647112_00_print.webp",
+          "filename": "1324647112_00_print.webp",
+          "size_kb": 19,
+          "url": "https://cdn.trio-prime.com/photos/1324647112_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1336918227",
+      "title": "ULAŞIMA YAKIN KONUM'DA YATIRIM & OTURUMA UYGUN AYRI MUTFAK 1+1 !",
+      "url": "https://www.sahibinden.com/ilan/emlak-konut-satilik-ulasima-yakin-konum-da-yatirim-oturuma-uygun-ayri-mutfak-1-plus1-1336918227/detay",
+      "price": 1299999,
+      "price_raw": "1.299.999 TL",
+      "location_raw": "İstanbul Esenyurt",
+      "mahalle": "Uc Kabaaagac",
+      "date_raw": "30 Ekim 2026",
+      "m2": 0,
+      "rooms": "1+1",
+      "image": "https://cdn.trio-prime.com/photos/1336918227_00_web.webp",
+      "scraped_at": "2026-10-30 18:54:28",
+      "search_path": "/emlak/balikesir-ayvalik-uc-kabaaagac.",
+      "category": "konut",
+      "price_per_m2": null,
+      "opportunity_score": 60,
+      "latitude": 39.3189,
+      "longitude": 26.6723,
+      "distances_km": {
+        "ayvalik_merkez": 1.84,
+        "cunda_sahil": 2.82,
+        "sarimsakli_sahil": 2.9,
+        "altinova_merkez": 10.92,
+        "gomec_merkez": 16.03,
+        "edremit_korfez_havalimani": 38.09,
+        "balikesir_merkez": 110.14
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1336918227_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1336918227_00_web.webp",
+          "filename": "1336918227_00_web.webp",
+          "size_kb": 28,
+          "url": "https://cdn.trio-prime.com/photos/1336918227_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1336918227_00_mobile.webp",
+          "filename": "1336918227_00_mobile.webp",
+          "size_kb": 28,
+          "url": "https://cdn.trio-prime.com/photos/1336918227_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1336918227_00_thumb.webp",
+          "filename": "1336918227_00_thumb.webp",
+          "size_kb": 19,
+          "url": "https://cdn.trio-prime.com/photos/1336918227_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1336918227_00_print.webp",
+          "filename": "1336918227_00_print.webp",
+          "size_kb": 28,
+          "url": "https://cdn.trio-prime.com/photos/1336918227_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1325357738",
+      "title": "ROUTE 10 GAYRİMENKUL'DEN AYVALIK'TA SATILIK 2 PARSEL ZEYTİNLİK",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-route-10-gayrimenkul-den-ayvalik-ta-satilik-2-parsel-zeytinlik-1325357738/detay",
+      "price": 1300000,
+      "price_raw": "1.300.000 TL",
+      "location_raw": "Murateli Mh.",
+      "mahalle": "Murateli",
+      "date_raw": "30 Ekim 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1325357738_00_web.webp",
+      "scraped_at": "2026-10-30 18:43:40",
+      "search_path": "/emlak/balikesir-ayvalik-murateli.",
+      "category": "arsa_tarla",
+      "price_per_m2": null,
+      "opportunity_score": 60,
+      "latitude": 39.3056,
+      "longitude": 26.7123,
+      "distances_km": {
+        "ayvalik_merkez": 2.33,
+        "cunda_sahil": 6.01,
+        "sarimsakli_sahil": 6.41,
+        "altinova_merkez": 12.6,
+        "gomec_merkez": 16.38,
+        "edremit_korfez_havalimani": 36.77,
+        "balikesir_merkez": 107.43
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1325357738_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1325357738_00_web.webp",
+          "filename": "1325357738_00_web.webp",
+          "size_kb": 35,
+          "url": "https://cdn.trio-prime.com/photos/1325357738_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1325357738_00_mobile.webp",
+          "filename": "1325357738_00_mobile.webp",
+          "size_kb": 35,
+          "url": "https://cdn.trio-prime.com/photos/1325357738_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1325357738_00_thumb.webp",
+          "filename": "1325357738_00_thumb.webp",
+          "size_kb": 25,
+          "url": "https://cdn.trio-prime.com/photos/1325357738_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1325357738_00_print.webp",
+          "filename": "1325357738_00_print.webp",
+          "size_kb": 35,
+          "url": "https://cdn.trio-prime.com/photos/1325357738_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1348445174",
+      "title": "SAHİBİNDEN ACİL SATILIK MEYDANA YAKIN KONUMDA 2+1 MASRAFSIZ",
+      "url": "https://www.sahibinden.com/ilan/emlak-konut-satilik-sahibinden-acil-satilik-meydana-yakin-konumda-2-plus1-masrafsiz-1348445174/detay",
+      "price": 1350000,
+      "price_raw": "1.350.000 TL",
+      "location_raw": "İstanbul Esenyurt",
+      "mahalle": "Uc Kabaaagac",
+      "date_raw": "30 Ekim 2026",
+      "m2": 0,
+      "rooms": "2+1",
+      "image": "https://cdn.trio-prime.com/photos/1348445174_00_web.webp",
+      "scraped_at": "2026-10-30 18:54:24",
+      "search_path": "/emlak/balikesir-ayvalik-uc-kabaaagac.",
+      "category": "konut",
+      "price_per_m2": null,
+      "opportunity_score": 60,
+      "latitude": 39.3189,
+      "longitude": 26.6723,
+      "distances_km": {
+        "ayvalik_merkez": 1.84,
+        "cunda_sahil": 2.82,
+        "sarimsakli_sahil": 2.9,
+        "altinova_merkez": 10.92,
+        "gomec_merkez": 16.03,
+        "edremit_korfez_havalimani": 38.09,
+        "balikesir_merkez": 110.14
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1348445174_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1348445174_00_web.webp",
+          "filename": "1348445174_00_web.webp",
+          "size_kb": 57,
+          "url": "https://cdn.trio-prime.com/photos/1348445174_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1348445174_00_mobile.webp",
+          "filename": "1348445174_00_mobile.webp",
+          "size_kb": 57,
+          "url": "https://cdn.trio-prime.com/photos/1348445174_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1348445174_00_thumb.webp",
+          "filename": "1348445174_00_thumb.webp",
+          "size_kb": 38,
+          "url": "https://cdn.trio-prime.com/photos/1348445174_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1348445174_00_print.webp",
+          "filename": "1348445174_00_print.webp",
+          "size_kb": 57,
+          "url": "https://cdn.trio-prime.com/photos/1348445174_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1348706360",
+      "title": "İMAR YOLUNA CEPHE - HASTANEYE ve DENİZE YAKIN - İMARLI ARSA",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-imar-yoluna-cephe-hastaneye-ve-denize-yakin-imarli-arsa-1348706360/detay",
+      "price": 1365000,
+      "price_raw": "1.365.000 TL",
+      "location_raw": "Tekirdağ Marmaraereğlisi",
+      "mahalle": "Uc Kabaaagac",
+      "date_raw": "30 Ekim 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1348706360_00_web.webp",
+      "scraped_at": "2026-10-30 18:54:50",
+      "search_path": "/emlak/balikesir-ayvalik-uc-kabaaagac.",
+      "category": "arsa_tarla",
+      "price_per_m2": null,
+      "opportunity_score": 65,
+      "latitude": 39.3189,
+      "longitude": 26.6723,
+      "distances_km": {
+        "ayvalik_merkez": 1.84,
+        "cunda_sahil": 2.82,
+        "sarimsakli_sahil": 2.9,
+        "altinova_merkez": 10.92,
+        "gomec_merkez": 16.03,
+        "edremit_korfez_havalimani": 38.09,
+        "balikesir_merkez": 110.14
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1348706360_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1348706360_00_web.webp",
+          "filename": "1348706360_00_web.webp",
+          "size_kb": 48,
+          "url": "https://cdn.trio-prime.com/photos/1348706360_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1348706360_00_mobile.webp",
+          "filename": "1348706360_00_mobile.webp",
+          "size_kb": 48,
+          "url": "https://cdn.trio-prime.com/photos/1348706360_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1348706360_00_thumb.webp",
+          "filename": "1348706360_00_thumb.webp",
+          "size_kb": 33,
+          "url": "https://cdn.trio-prime.com/photos/1348706360_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1348706360_00_print.webp",
+          "filename": "1348706360_00_print.webp",
+          "size_kb": 48,
+          "url": "https://cdn.trio-prime.com/photos/1348706360_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1279880132",
+      "title": "AYVALIK ÇAMOBADA PROJE İÇİNDE SATILIK VİLLA ARSASI",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-ayvalik-camobada-proje-icinde-satilik-villa-arsasi-1279880132/detay",
+      "price": 1400000,
+      "price_raw": "1.400.000 TL",
+      "location_raw": "Çamoba Mh.",
+      "mahalle": "Camoba",
+      "date_raw": "02 Ekim 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1279880132_00_web.webp",
+      "scraped_at": "2026-10-30 18:26:37",
+      "search_path": "/emlak/balikesir-ayvalik-camoba.",
+      "category": "arsa_tarla",
+      "price_per_m2": null,
+      "opportunity_score": 65,
+      "latitude": 39.3278,
+      "longitude": 26.6801,
+      "distances_km": {
+        "ayvalik_merkez": 1.4,
+        "cunda_sahil": 3.89,
+        "sarimsakli_sahil": 3.79,
+        "altinova_merkez": 9.89,
+        "gomec_merkez": 14.86,
+        "edremit_korfez_havalimani": 36.92,
+        "balikesir_merkez": 109.18
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1279880132_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1279880132_00_web.webp",
+          "filename": "1279880132_00_web.webp",
+          "size_kb": 62,
+          "url": "https://cdn.trio-prime.com/photos/1279880132_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1279880132_00_mobile.webp",
+          "filename": "1279880132_00_mobile.webp",
+          "size_kb": 62,
+          "url": "https://cdn.trio-prime.com/photos/1279880132_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1279880132_00_thumb.webp",
+          "filename": "1279880132_00_thumb.webp",
+          "size_kb": 41,
+          "url": "https://cdn.trio-prime.com/photos/1279880132_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1279880132_00_print.webp",
+          "filename": "1279880132_00_print.webp",
+          "size_kb": 62,
+          "url": "https://cdn.trio-prime.com/photos/1279880132_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1332895722",
+      "title": "BALIKESİR AYVALIK BAGYÜZÜ ZEYTİNLİK BAHÇE SATILIK",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-balikesir-ayvalik-bagyuzu-zeytinlik-bahce-satilik-1332895722/detay",
+      "price": 1500000,
+      "price_raw": "1.500.000 TL",
+      "location_raw": "Bağyüzü Mh.",
+      "mahalle": "Bagyuzu",
+      "date_raw": "23 Ekim 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1332895722_00_web.webp",
+      "scraped_at": "2026-10-30 18:22:44",
+      "search_path": "/emlak/balikesir-ayvalik-bagyuzu.",
+      "category": "arsa_tarla",
+      "price_per_m2": null,
+      "opportunity_score": 65,
+      "latitude": 39.3312,
+      "longitude": 26.6754,
+      "distances_km": {
+        "ayvalik_merkez": 1.95,
+        "cunda_sahil": 3.81,
+        "sarimsakli_sahil": 3.59,
+        "altinova_merkez": 9.53,
+        "gomec_merkez": 14.68,
+        "edremit_korfez_havalimani": 36.96,
+        "balikesir_merkez": 109.43
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1332895722_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1332895722_00_web.webp",
+          "filename": "1332895722_00_web.webp",
+          "size_kb": 54,
+          "url": "https://cdn.trio-prime.com/photos/1332895722_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1332895722_00_mobile.webp",
+          "filename": "1332895722_00_mobile.webp",
+          "size_kb": 54,
+          "url": "https://cdn.trio-prime.com/photos/1332895722_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1332895722_00_thumb.webp",
+          "filename": "1332895722_00_thumb.webp",
+          "size_kb": 35,
+          "url": "https://cdn.trio-prime.com/photos/1332895722_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1332895722_00_print.webp",
+          "filename": "1332895722_00_print.webp",
+          "size_kb": 54,
+          "url": "https://cdn.trio-prime.com/photos/1332895722_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    },
+    {
+      "id": "1326352272",
+      "title": "CUNDA ADASINDA İMAR SINIRINA 100M YATIRIMLIK ZEYTİNLİK HİSSESİ",
+      "url": "https://www.sahibinden.com/ilan/emlak-arsa-satilik-cunda-adasinda-imar-sinirina-100m-yatirimlik-zeytinlik-hissesi-1326352272/detay",
+      "price": 1500000,
+      "price_raw": "1.500.000 TL",
+      "location_raw": "Mithatpaşa Mh.",
+      "mahalle": "Mithatpasa",
+      "date_raw": "25 Ekim 2026",
+      "m2": 0,
+      "rooms": "",
+      "image": "https://cdn.trio-prime.com/photos/1326352272_00_web.webp",
+      "scraped_at": "2026-10-30 18:41:47",
+      "search_path": "/emlak/balikesir-ayvalik-mithatpasa.",
+      "category": "arsa_tarla",
+      "price_per_m2": null,
+      "opportunity_score": 65,
+      "latitude": 39.3211,
+      "longitude": 26.6912,
+      "distances_km": {
+        "ayvalik_merkez": 0.21,
+        "cunda_sahil": 4.42,
+        "sarimsakli_sahil": 4.54,
+        "altinova_merkez": 10.65,
+        "gomec_merkez": 15.2,
+        "edremit_korfez_havalimani": 36.76,
+        "balikesir_merkez": 108.53
+      },
+      "description": "",
+      "features": {},
+      "building_age": null,
+      "floor": null,
+      "total_floors": null,
+      "heating": "",
+      "balcony": false,
+      "furnished": false,
+      "deed_status": "",
+      "credit_eligible": false,
+      "all_photos": [
+        "https://cdn.trio-prime.com/photos/1326352272_00_web.webp"
+      ],
+      "photo_count": 1,
+      "photo_versions": [
+        {
+          "profile": "web",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1326352272_00_web.webp",
+          "filename": "1326352272_00_web.webp",
+          "size_kb": 26,
+          "url": "https://cdn.trio-prime.com/photos/1326352272_00_web.webp"
+        },
+        {
+          "profile": "mobile",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1326352272_00_mobile.webp",
+          "filename": "1326352272_00_mobile.webp",
+          "size_kb": 26,
+          "url": "https://cdn.trio-prime.com/photos/1326352272_00_mobile.webp"
+        },
+        {
+          "profile": "thumb",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1326352272_00_thumb.webp",
+          "filename": "1326352272_00_thumb.webp",
+          "size_kb": 18,
+          "url": "https://cdn.trio-prime.com/photos/1326352272_00_thumb.webp"
+        },
+        {
+          "profile": "print",
+          "path": "/home/rw/HermesSecondBrain/SecondBrain/.processing/photos_output/1326352272_00_print.webp",
+          "filename": "1326352272_00_print.webp",
+          "size_kb": 26,
+          "url": "https://cdn.trio-prime.com/photos/1326352272_00_print.webp"
+        }
+      ],
+      "agent_name": "Ozancan Serhan",
+      "agent_phone": "0533 378 68 94",
+      "agent_company": "TrioPrime Emlak",
+      "regions": [
+        "Ayvalık",
+        "Cunda",
+        "Altınova",
+        "Gömeç",
+        "İstanbul"
+      ]
+    }
+  ]
+}

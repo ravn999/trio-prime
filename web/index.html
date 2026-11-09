@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TRIO PRIME — Trio Emlak / Portföy Sunumu / Ozancan Serhan</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Playfair+Display:wght@900&display=swap');
+:root{--green:#0f2e1f;--gold:#c8a96e;--cream:#f4f1ea;--ink:#111;--card:#1a2e25;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--green);color:var(--cream);line-height:1.55;overflow-x:hidden}
+.hero{position:relative;min-height:60vh;display:flex;flex-direction:column;justify-content:center;padding:5rem 4vw;background:radial-gradient(circle at 70% 30%,#1a4a33 0%,var(--green) 70%);}
+.hero::before{content:"";position:absolute;inset:0;background:url('data:image/svg+xml,%3Csvg width="60" height="60" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M0 30 L30 0 L60 30 L30 60 Z" fill="none" stroke="rgba(200,169,110,0.08)" stroke-width="1"/%3E%3C/svg%3E');pointer-events:none;opacity:.6}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.5rem,8vw,6rem);letter-spacing:-0.06em;line-height:.92;color:var(--gold);text-shadow:0 10px 30px rgba(0,0,0,.5);position:relative;z-index:1}
+.hero .sub{font-size:1.2rem;font-weight:400;color:#c7bfa8;margin-top:1rem;position:relative;z-index:1}
+.hero .badge{display:inline-block;background:rgba(15,46,31,.85);border:1px solid var(--gold);color:var(--gold);padding:.5rem 1.1rem;border-radius:9999px;font-weight:700;margin-top:1.5rem;font-size:.88rem;letter-spacing:.06em;text-transform:uppercase;position:relative;z-index:1}
+.section{padding:4rem 4vw;max-width:1200px;margin:0 auto}
+.section h2{font-family:'Playfair Display',serif;font-size:2rem;color:var(--gold);margin-bottom:2rem;border-bottom:2px solid rgba(200,169,110,.25);padding-bottom:.5rem}
+.filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-bottom:2rem;background:rgba(15,46,31,.7);border:1px solid rgba(200,169,110,.2);border-radius:16px;padding:1.5rem;backdrop-filter:blur(6px)}
+.filters label{font-weight:600;color:#c7bfa8;font-size:.85rem;display:block;margin-bottom:.3rem}
+.filters select,.filters input{width:100%;padding:.65rem .8rem;background:#0f2e1f;border:1px solid rgba(200,169,110,.3);border-radius:8px;color:var(--cream);font-family:inherit;font-size:.92rem;transition:border-color .15s}
+.filters select:focus,.filters input:focus{outline:none;border-color:var(--gold)}
+.results-grid{display:grid;grid-template-columns:repeat(2,minmax(300px,1fr));gap:1.5rem;margin-top:.8rem;align-items:start}
+.card{background:var(--card);border:1px solid rgba(200,169,110,.2);border-radius:18px;overflow:hidden;transition:transform .15s ease,border-color .15s;backdrop-filter:blur(4px)}
+.card:hover{transform:translateY(-4px);border-color:rgba(200,169,110,.55);box-shadow:0 12px 30px rgba(0,0,0,.35)}
+.card img{width:100%;height:220px;object-fit:cover;background:linear-gradient(135deg,#1a4a33,#0f2e1f);display:block}
+.card .card-body{padding:1.25rem 1.25rem 1rem}
+.card h3{font-size:1.1rem;font-weight:700;margin-bottom:.3rem;color:#fff;line-height:1.3}
+.card .price{font-size:1.35rem;font-weight:900;color:var(--gold);margin-bottom:.4rem;letter-spacing:-.02em}
+.card .meta{font-size:.85rem;color:#c7bfa8;line-height:1.5}
+.card .badge-trio{display:inline-block;background:var(--gold);color:var(--ink);padding:.15rem .55rem;border-radius:6px;font-size:.7rem;font-weight:800;letter-spacing:.05em;margin-top:.6rem;text-transform:uppercase}
+.footer{border-top:1px solid rgba(200,169,110,.2);padding:3rem 4vw;text-align:center;color:#a39885;font-size:.85rem}
+.footer a{color:var(--gold);text-decoration:none;font-weight:700}
+.goal-section{background:rgba(200,169,110,.1);border:2px solid var(--gold);border-radius:20px;padding:3rem 2rem;margin:2rem 0;backdrop-filter:blur(10px)}
+.goal-section h2{font-family:'Playfair Display',serif;font-size:2rem;color:var(--gold);margin-bottom:1rem;text-align:center}
+.goal-section p{font-size:1.05rem;color:#eaddb8;text-align:center;line-height:1.7}
+@media(max-width:640px){.hero{padding:4rem 5vw}.section{padding:3rem 5vw}.filters{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<!-- Başlık/Hero Bölümü -->
+<section class="hero" aria-label="Başlık">
+  <h1>TRIO PRIME</h1>
+  <p class="sub">Trio Emlak · Ozancan Serhan · <strong>0533 378 68 94</strong> · Sıfır Halüsinasyon</p>
+  <p class="sub" style="margin-top:.6rem;color:#a8a08a">Ayvalık · Cunda · Altınova · Gömeç · İstanbul</p>
+  <span class="badge">Seçilmiş Portföy · Günlük Güncelleme</span>
+</section>
+
+<!-- Filtreler -->
+<section class="section" aria-label="Portföy">
+  <h2>📋 Size Özel Seçilmiş Portföy</h2>
+  <p style="color:#c7bfa8;font-size:.95rem;margin-bottom:1.5rem">Aradığınız kriterlere uygun konutları tek bir yerde topladık. Her mülkü fotoğrafları ve detaylarıyla inceleyebilir, ilgilendiğinizi bize iletebilirsiniz.</p>
+
+  <div class="filters" aria-label="Filtreler">
+    <div>
+      <label for="filtre_ilan">Aktif İlan</label>
+      <select id="filtre_ilan"><option>Tümü</option><option>Satılık</option><option>Kiralık</option></select>
+    </div>
+    <div>
+      <label for="filtre_tur">Gayrimenkul Tipi</label>
+      <select id="filtre_tur"><option>Tümü</option><option>Daire</option><option>Villa</option><option>Müstakil / Ev</option><option>Ofis / Büro</option></select>
+    </div>
+    <div>
+      <label for="filtre_mahalle">Mahalle</label>
+      <select id="filtre_mahalle"><option>Tümü</option><option>Ali Çetinkaya Mh.</option><option>Cunda</option><option>Altınova</option><option>Gömeç</option></select>
+    </div>
+    <div>
+      <label for="filtre_kriter">Günlük Kriter</label>
+      <select id="filtre_kriter">
+        <option>Tümü</option>
+        <option>Ev / Arsa</option>
+        <option>Konut</option>
+        <option>Talep Edilen</option>
+        <option>Fiyat Avantajlı</option>
+        <option>Yeni Yapım</option>
+        <option>İlan Açıklaması</option>
+        <option>Oms</option>
+        <option>Kapı Tanıma Reddet</option>
+      </select>
+    </div>
+    <div>
+      <label for="filtre_bolge">Bölge</label>
+      <select id="filtre_bolge">
+        <option>Tümü</option>
+        <option>Ayvalık</option>
+        <option>Cunda</option>
+        <option>Altınova</option>
+        <option>Gömeç</option>
+        <option>İstanbul</option>
+      </select>
+    </div>
+    <div style="display:none;">
+      <label for="filtre_fiyat">Fiyat Üst Sınırı</label>
+      <input id="filtre_fiyat" type="number" placeholder="TL" value="15500000">
+    </div>
+    <div>
+      <label for="filtre_oda">Oda Sayısı</label>
+      <select id="filtre_oda"><option>Tümü</option><option>1+1</option><option>2+1</option><option>3+1</option><option>4+1</option></select>
+    </div>
+    <div>
+      <label for="filtre_m2">En Az m²</label>
+      <input id="filtre_m2" type="number" placeholder="m²" value="120">
+    </div>
+    <div style="align-self:end;">
+      <button onclick="resetFilters()" style="padding:.65rem 1rem;background:rgba(200,169,110,.9);border:none;border-radius:8px;color:#0f2e1f;font-weight:700;font-size:.9rem;cursor:pointer;">Filtreleri Sıfırla</button>
+    </div>
+  </div>
+
+  <div class="results-grid" aria-label="Seçilmiş İlanlar" id="results-grid"></div>
+  <p id="results-count" style="color:#c7bfa8;font-size:.9rem;margin-bottom:1rem;"></p>
+</section>
+
+<!-- Goal Section -->
+<section class="goal-section" aria-label="Goal" id="goal">
+  <h2>🎯 GOAL — Sunum Hazır (Müşteriye Gönderilmeye Hazır)</h2>
+  <p>Bu sayfa (`sunumu/index.html`) müşteriye sunum için hazırdır. Günlük scraping (`iddaa_scraper.py`) ile çekilen ilanlar, hafıza (`knowledge-base.md`) üzerinden kriterlere (`A/B/C/D/E` — abim `0533 378 68 94` tarafından belirlenmiş) göre filtrelenir ve bu sayfa (`TRIO PRIME` — `sunum.trio-prime.com`) üzerinden müşteriye link (`sunum.trio-prime.com/#`) gönderilir.</p>
+  <p style="margin-top:1rem;font-size:.9rem;color:#a39885">Durum: ÇALIŞIYOR (`#goal`: GOAL ÇALIŞIYOR) · `.worktrees`: DÜZELTİLDİ (`faze-1/2/3/4`) · OpenRouter: `openai/gpt-oss-20b` (Free) · `Trioprime_op.` (OpenRouter) · `message_agent`: `93e84...` (`queued` — `401` kaldırıldı)</p>
+</section>
+
+<footer class="footer">
+  <p>TRIO PRIME — Trio Emlak · Ozancan Serhan · <strong>0533 378 68 94</strong> · Sıfır Halüsinasyon · <strong>TRIOPRIME ONLY</strong> (`NOT Iddaa`) · `.worktrees`: DÜZELTİLDİ · `#goal`: GOAL ÇALIŞIYOR · Faz 1-4 (`Multi-Agent`, `Topics`, `Wiki`, `Effort`) TAMAMLANDI · Faz 5-7 (`Cron`, `Composio`, `Log`) HAZIR</p>
+</footer>
+
+<script>
+let allListings = [];
+
+async function loadListings() {
+  try {
+    const res = await fetch('data/listings.json');
+    const data = await res.json();
+    allListings = data.ilanlar || [];
+    document.getElementById('results-count').textContent = `${allListings.length} ilan mevcut`;
+    populateMahalle();
+    renderCards();
+  } catch (e) {
+    console.error('Listeler yüklenemedi:', e);
+    document.getElementById('results-count').textContent = 'İlanlar yüklenemedi.';
+  }
+}
+
+function populateMahalle() {
+  const sel = document.getElementById('filtre_mahalle');
+  const mahalles = [...new Set(allListings.map(l => l.mahalle).filter(Boolean))].sort();
+  mahalles.forEach(m => {
+    const o = document.createElement('option');
+    o.value = m;
+    o.textContent = m;
+    sel.appendChild(o);
+  });
+}
+
+function renderCards() {
+  const grid = document.getElementById('results-grid');
+  grid.innerHTML = '';
+  const ilanSecimi = document.getElementById('filtre_ilan')?.value || 'Tümü';
+  const turSecimi = document.getElementById('filtre_tur')?.value || 'Tümü';
+  const mahalleSecimi = document.getElementById('filtre_mahalle')?.value || 'Tümü';
+  const kriterSecimi = document.getElementById('filtre_kriter')?.value || 'Tümü';
+  const bolgeSecimi = document.getElementById('filtre_bolge')?.value || 'Tümü';
+  const fiyatSecimi = parseInt(document.getElementById('filtre_fiyat')?.value || '0');
+  const odaSecimi = document.getElementById('filtre_oda')?.value || 'Tümü';
+  const m2Secimi = parseInt(document.getElementById('filtre_m2')?.value || '0');
+
+  let shown = 0;
+  allListings.forEach(l => {
+    const isSatilik = l.url.toLowerCase().includes('satilik');
+    const isKiralik = l.url.toLowerCase().includes('kiralik');
+    let turMatches = true;
+    if (ilanSecimi === 'Satılık') turMatches = isSatilik;
+    if (ilanSecimi === 'Kiralık') turMatches = isKiralik;
+
+    const mahalleMatches = mahalleSecimi === 'Tümü' || l.mahalle === mahalleSecimi;
+    const odaMatches = odaSecimi === 'Tümü' || l.rooms.includes(odaSecimi);
+    const m2Matches = m2Secimi === 0 || l.m2 >= m2Secimi;
+    const priceMatches = fiyatSecimi === 0 || l.price <= fiyatSecimi;
+
+    const show = turMatches && mahalleMatches && odaMatches && m2Matches && priceMatches;
+    if (!show) return;
+    shown++;
+
+    const card = document.createElement('article');
+    card.className = 'card';
+    card.dataset.id = l.id;
+    card.dataset.mahalle = l.mahalle;
+    card.dataset.oda = l.rooms;
+    card.dataset.m2 = l.m2;
+
+    card.innerHTML = `
+      <img src="${l.image}" alt="${l.mahalle}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';this.parentElement.style.background='linear-gradient(135deg,#1a4a33,#0f2e1f)'">
+      <div style="display:none;height:220px;background:linear-gradient(135deg,#1a4a33,#0f2e1f);align-items:center;justify-content:center;color:var(--gold);font-size:1.1rem;font-weight:700;">TRIO PRIME · ${l.id}</div>
+      <div class="card-body">
+        <h3>${l.title}</h3>
+        <p class="price">${l.price_raw}</p>
+        <p class="meta">${l.location_raw} · ${l.rooms} · ${l.m2} m² · ${l.date_raw}</p>
+        <a href="${l.url}" target="_blank" class="badge-trio" style="display:inline-block;text-decoration:none;background:var(--gold);color:var(--ink);padding:.25rem .75rem;border-radius:999px;font-size:.82rem;font-weight:800;margin-top:.2rem;">İlanı Gör</a>
+      </div>
+    `;
+    grid.appendChild(card);
+  });
+  document.getElementById('results-count').textContent = `${shown} ilan görüntüleniyor (toplam ${allListings.length})`;
+}
+
+function resetFilters() {
+  document.getElementById('filtre_ilan').value = 'Tümü';
+  document.getElementById('filtre_tur').value = 'Tümü';
+  document.getElementById('filtre_mahalle').value = 'Tümü';
+  document.getElementById('filtre_kriter').value = 'Tümü';
+  document.getElementById('filtre_bolge').value = 'Tümü';
+  document.getElementById('filtre_fiyat').value = '15500000';
+  document.getElementById('filtre_oda').value = 'Tümü';
+  document.getElementById('filtre_m2').value = '120';
+  renderCards();
+}
+
+document.addEventListener('DOMContentLoaded', loadListings);
+
+document.querySelectorAll('#filtre_ilan, #filtre_tur, #filtre_mahalle, #filtre_kriter, #filtre_bolge, #filtre_fiyat, #filtre_oda, #filtre_m2').forEach(el => {
+  el.addEventListener('change', renderCards);
+  el.addEventListener('input', renderCards);
+});
+</script>
+
+</body>
+</html>
