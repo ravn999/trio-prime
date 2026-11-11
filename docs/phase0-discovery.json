@@ -1,0 +1,19 @@
+{
+  "system_purpose": "TrioPrime / Trio Emlak - Real estate CRM for Ayvalık/Cunda/Altınova/Gömeç/İstanbul regions. Multi-phase system: faze-1 (Telegram/webhook → CRM sync), faze-2 (Market analyst for competitive pricing), faze-3 (Content generator for social media), faze-4 (Full orchestration: market scan + lead follow-up + KPI reporting). Cloudflare Pages + Workers deployment with D1 (SQLite) database.",
+  "evidence_so_far": "APM: none, Profiler: none, Load tests: none, Database: Cloudflare D1 (SQLite) with binding 'DB', database_name: trio-staging-db. Local JSON fallback files (portfolio.json, crm.json, leads.json).",
+  "hot_paths": [
+    ".worktrees/faze-1/telegram_processor.py (message normalization, rule matching, lead persistence)",
+    ".worktrees/faze-1/webhook_processor.py (webhook → DB format conversion)",
+    ".worktrees/faze-2/analyst.py (region-based price analysis, lead matching)",
+    ".worktrees/faze-2/portfolio_db.py (data loading, indexing, matching logic)",
+    ".worktrees/faze-3/content_generator.py (social media content generation)",
+    ".worktrees/faze-3/social_media_posts.py (post formatting, scheduling)",
+    ".worktrees/faze-4/orchestrator.py (market_scan, follow_up_leads, report KPIs)",
+    "worker/index.js (Cloudflare Worker proxy to Pages deployment)"
+  ],
+  "test_status": "No test infrastructure detected (no pytest, jest, vitest, cargo test). No CI configuration found (.github/workflows/, .gitlab-ci.yml, etc.). Manual testing only.",
+  "stack": "Python 3.11+ (faze-1/2/3/4 processors), JavaScript/Node.js (Cloudflare Worker), HTML/CSS (static Pages frontend), Cloudflare D1 (SQLite) database, Cloudflare Pages + Workers deployment, Wrangler CLI for deployments. Data source: sahibinden.com scraped listings (~1000+ items in listings.json).",
+  "deployment": "Cloudflare Pages (static frontend at trio-crm-staging.pages.dev) + Cloudflare Workers (API proxy). D1 database for persistence. wrangler.jsonc per phase for deployment config. Git worktrees for phase isolation (faze-1, faze-2, faze-3, faze3, faze-4).",
+  "load_numbers": "Listings: ~1000+ items in sunumu/data/listings.json (103 displayed client-side). Portfolio: ~50 items in data/portfolio.json. No QPS/latency metrics available (no APM). Telegram webhook traffic: low (2 authorized users, 2 authorized chats).",
+  "journey_scope": "full (phases 1-8) - This is a greenfield-ish project with legacy patterns (faze-1 through faze-4) that would benefit from: Phase 1 (characterization tests), Phase 2 (clean architecture boundaries), Phase 3 (design philosophy), Phase 4 (refactoring patterns), Phase 5 (system design for scale), Phase 6 (DDIA resilience), Phase 7 (release automation), Phase 8 (pragmatic habits)"
+}

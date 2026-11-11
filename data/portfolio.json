@@ -1,0 +1,305 @@
+{
+  "indexed_at": "2026-11-08T13:50:09.806660",
+  "items": [
+    {
+      "id": "1272766293",
+      "price": 550000,
+      "price_sqm": 550000.0,
+      "area": 0,
+      "location": "Namık Kemal Mh.",
+      "district": "Balikesir Ayvalik Namik Kemal",
+      "features": [],
+      "date": "28 Ekim 2026"
+    },
+    {
+      "id": "1233942594",
+      "price": 700000,
+      "price_sqm": 700000.0,
+      "area": 0,
+      "location": "Merkez Sahil Kent Mah.",
+      "district": "Balikesir Ayvalik",
+      "features": [],
+      "date": "23 Ekim 2026"
+    },
+    {
+      "id": "1255344039",
+      "price": 880000,
+      "price_sqm": 880000.0,
+      "area": 0,
+      "location": "Küçükköy Mh.",
+      "district": "Balikesir Ayvalik Kucukkoy",
+      "features": [],
+      "date": "23 Ekim 2026"
+    },
+    {
+      "id": "1226580619",
+      "price": 890000,
+      "price_sqm": 890000.0,
+      "area": 0,
+      "location": "Küçükköy Küçükköy Mh.",
+      "district": "Balikesir Ayvalik",
+      "features": [],
+      "date": "24 Ekim 2026"
+    },
+    {
+      "id": "1288933681",
+      "price": 950000,
+      "price_sqm": 950000.0,
+      "area": 0,
+      "location": "Bağyüzü Mh.",
+      "district": "Balikesir Ayvalik Bagyuzu",
+      "features": [],
+      "date": "14 Ekim 2026"
+    },
+    {
+      "id": "1321088786",
+      "price": 950000,
+      "price_sqm": 950000.0,
+      "area": 0,
+      "location": "Namık Kemal Mh.",
+      "district": "Balikesir Ayvalik Namik Kemal",
+      "features": [],
+      "date": "22 Ekim 2026"
+    },
+    {
+      "id": "1320205719",
+      "price": 1000000,
+      "price_sqm": 1000000.0,
+      "area": 0,
+      "location": "Murateli Mh.",
+      "district": "Balikesir Ayvalik Murateli",
+      "features": [],
+      "date": "18 Ekim 2026"
+    },
+    {
+      "id": "1172974847",
+      "price": 1000000,
+      "price_sqm": 1000000.0,
+      "area": 0,
+      "location": "Bağyüzü Mh.",
+      "district": "Balikesir Ayvalik Bagyuzu",
+      "features": [],
+      "date": "01 Ekim 2026"
+    },
+    {
+      "id": "1341233670",
+      "price": 1000000,
+      "price_sqm": 1000000.0,
+      "area": 0,
+      "location": "Çamoba Mh.",
+      "district": "Balikesir Ayvalik Camoba",
+      "features": [],
+      "date": "21 Ekim 2026"
+    },
+    {
+      "id": "1318189456",
+      "price": 1000000,
+      "price_sqm": 1000000.0,
+      "area": 0,
+      "location": "Hacıveliler Mh.",
+      "district": "Balikesir Ayvalik Haciveliler",
+      "features": [],
+      "date": "20 Ekim 2026"
+    },
+    {
+      "id": "1273678481",
+      "price": 1000000,
+      "price_sqm": 1000000.0,
+      "area": 0,
+      "location": "Namık Kemal Mh.",
+      "district": "Balikesir Ayvalik Namik Kemal",
+      "features": [],
+      "date": "28 Ekim 2026"
+    },
+    {
+      "id": "1340508099",
+      "price": 1060000,
+      "price_sqm": 1060000.0,
+      "area": 0,
+      "location": "Hacıveliler Mh.",
+      "district": "Balikesir Ayvalik Haciveliler",
+      "features": [],
+      "date": "26 Ekim 2026"
+    },
+    {
+      "id": "1324403045",
+      "price": 1075000,
+      "price_sqm": 1075000.0,
+      "area": 0,
+      "location": "Bulutçeşme Mh.",
+      "district": "Balikesir Ayvalik Bulutcesme",
+      "features": [],
+      "date": "28 Ekim 2026"
+    },
+    {
+      "id": "1218449669",
+      "price": 1100000,
+      "price_sqm": 1100000.0,
+      "area": 0,
+      "location": "Bulutçeşme Mh.",
+      "district": "Balikesir Ayvalik Bulutcesme",
+      "features": [],
+      "date": "12 Ekim 2026"
+    },
+    {
+      "id": "1308275748",
+      "price": 1100000,
+      "price_sqm": 1100000.0,
+      "area": 0,
+      "location": "Bulutçeşme Mh.",
+      "district": "Balikesir Ayvalik Bulutcesme",
+      "features": [],
+      "date": "30 Eylül 2026"
+    },
+    {
+      "id": "1336315648",
+      "price": 1100000,
+      "price_sqm": 1100000.0,
+      "area": 0,
+      "location": "Tıfıllar Mh.",
+      "district": "Balikesir Ayvalik Tifillar",
+      "features": [],
+      "date": "26 Ekim 2026"
+    },
+    {
+      "id": "1328677486",
+      "price": 1150000,
+      "price_sqm": 1150000.0,
+      "area": 0,
+      "location": "Hacıveliler Mh.",
+      "district": "Balikesir Ayvalik Haciveliler",
+      "features": [],
+      "date": "07 Ekim 2026"
+    },
+    {
+      "id": "1312878319",
+      "price": 1235000,
+      "price_sqm": 1235000.0,
+      "area": 0,
+      "location": "Fethiye Mah.",
+      "district": "Balikesir Ayvalik Fethiye",
+      "features": [],
+      "date": "02 Ekim 2026"
+    },
+    {
+      "id": "1330119356",
+      "price": 1250000,
+      "price_sqm": 1250000.0,
+      "area": 0,
+      "location": "Hacıveliler Mh.",
+      "district": "Balikesir Ayvalik Haciveliler",
+      "features": [],
+      "date": "22 Ekim 2026"
+    },
+    {
+      "id": "1348470157",
+      "price": 1250000,
+      "price_sqm": 1250000.0,
+      "area": 0,
+      "location": "Altınova Mh.",
+      "district": "Balikesir Altinova",
+      "features": [],
+      "date": "29 Ekim 2026"
+    },
+    {
+      "id": "1314457854",
+      "price": 1290000,
+      "price_sqm": 1290000.0,
+      "area": 0,
+      "location": "Küçükköy Mh.",
+      "district": "Balikesir Ayvalik Kucukkoy",
+      "features": [],
+      "date": "28 Ekim 2026"
+    },
+    {
+      "id": "1336474516",
+      "price": 1290000,
+      "price_sqm": 1290000.0,
+      "area": 0,
+      "location": "Namık Kemal Mh.",
+      "district": "Balikesir Ayvalik Namik Kemal",
+      "features": [],
+      "date": "25 Ekim 2026"
+    },
+    {
+      "id": "1324647112",
+      "price": 1295000,
+      "price_sqm": 1295000.0,
+      "area": 0,
+      "location": "Çakmak Mh.",
+      "district": "Balikesir Ayvalik Cakmak",
+      "features": [],
+      "date": "23 Eylül 2026"
+    },
+    {
+      "id": "1336918227",
+      "price": 1299999,
+      "price_sqm": 1299999.0,
+      "area": 0,
+      "location": "İstanbul Esenyurt",
+      "district": "Balikesir Ayvalik Uc Kabaaagac",
+      "features": [],
+      "date": "30 Ekim 2026"
+    },
+    {
+      "id": "1325357738",
+      "price": 1300000,
+      "price_sqm": 1300000.0,
+      "area": 0,
+      "location": "Murateli Mh.",
+      "district": "Balikesir Ayvalik Murateli",
+      "features": [],
+      "date": "30 Ekim 2026"
+    },
+    {
+      "id": "1348445174",
+      "price": 1350000,
+      "price_sqm": 1350000.0,
+      "area": 0,
+      "location": "İstanbul Esenyurt",
+      "district": "Balikesir Ayvalik Uc Kabaaagac",
+      "features": [],
+      "date": "30 Ekim 2026"
+    },
+    {
+      "id": "1348706360",
+      "price": 1365000,
+      "price_sqm": 1365000.0,
+      "area": 0,
+      "location": "Tekirdağ Marmaraereğlisi",
+      "district": "Balikesir Ayvalik Uc Kabaaagac",
+      "features": [],
+      "date": "30 Ekim 2026"
+    },
+    {
+      "id": "1279880132",
+      "price": 1400000,
+      "price_sqm": 1400000.0,
+      "area": 0,
+      "location": "Çamoba Mh.",
+      "district": "Balikesir Ayvalik Camoba",
+      "features": [],
+      "date": "02 Ekim 2026"
+    },
+    {
+      "id": "1332895722",
+      "price": 1500000,
+      "price_sqm": 1500000.0,
+      "area": 0,
+      "location": "Bağyüzü Mh.",
+      "district": "Balikesir Ayvalik Bagyuzu",
+      "features": [],
+      "date": "23 Ekim 2026"
+    },
+    {
+      "id": "1326352272",
+      "price": 1500000,
+      "price_sqm": 1500000.0,
+      "area": 0,
+      "location": "Mithatpaşa Mh.",
+      "district": "Balikesir Ayvalik Mithatpasa",
+      "features": [],
+      "date": "25 Ekim 2026"
+    }
+  ]
+}
